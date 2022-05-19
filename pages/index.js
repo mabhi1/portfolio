@@ -12,7 +12,7 @@ export default function Home() {
                 <link rel="icon" href="/logo.png" />
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
-            <div className="mx-40">
+            <div className="dark:bg-slate-900 font-serif text-slate-900 dark:text-slate-50 text-base">
                 <About />
                 <Skills />
                 <Projects />
