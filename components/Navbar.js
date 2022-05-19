@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
 import Link from "next/link";
-import { CgProfile, CgAwards, CgAlbum } from "react-icons/cg";
+import { CgProfile, CgAwards, CgAlbum, CgFileDocument } from "react-icons/cg";
 import { BiMessageDots } from "react-icons/bi";
 import { GoThreeBars } from "react-icons/go";
 
@@ -89,6 +89,14 @@ const Navbar = () => {
                         <a className={classes.a}>
                             <BiMessageDots className="m-1" />
                             Contact Me
+                        </a>
+                    </Link>
+                </li>
+                <li className={classes.li} onClick={hideMenu}>
+                    <Link href="/Resume.pdf">
+                        <a href="/Resume.pdf" className={classes.a} download>
+                            <CgFileDocument className="m-1" />
+                            Resume
                         </a>
                     </Link>
                 </li>
