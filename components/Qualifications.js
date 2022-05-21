@@ -4,7 +4,7 @@ import { FaGraduationCap, FaBriefcase, FaRegCalendarAlt } from "react-icons/fa";
 const classes = {
     heading: "flex justify-end items-center text-base mb-10 mr-2",
     section: "flex flex-col items-end min-h-[50vh] justify-between",
-    subsection: "w-80 flex flex-col items-end h-[15vh] justify-evenly",
+    subsection: "flex flex-col items-end h-[15vh] justify-evenly",
 };
 const Qualifications = () => {
     return (
@@ -51,7 +51,7 @@ const Qualifications = () => {
                         Work
                     </h1>
                     <div className="flex flex-col items-start min-h-[50vh] justify-around">
-                        <div className="w-80 flex flex-col items-start h-[15vh] justify-evenly">
+                        <div className="flex flex-col items-start h-[15vh] justify-evenly">
                             <span class="flex h-3 w-3 ml-[-27px] mb-[-27px]">
                                 <span class="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-teal-500 opacity-75"></span>
                                 <span class="relative inline-flex rounded-full h-3 w-3 bg-teal-600"></span>
