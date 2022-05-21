@@ -30,8 +30,8 @@ const Skills = () => {
     };
     return (
         <div id="skills">
-            <div className="min-h-screen pt-24 md:pt-40 lg:pt-28 text-center mx-5 md:mx-20 lg:mx-40">
-                <div className="font-['Helvetica'] text-2xl mb-8 md:mb-16">My Technical Skills</div>
+            <div className="md:min-h-[60vh] lg:min-h-[85vh] pt-24 md:pt-40 lg:pt-28 text-center mx-5 md:mx-20 lg:mx-40">
+                <div className="text-2xl mb-8 md:mb-16">My Technical Skills</div>
                 <div className="md:flex flex-row w-full">
                     <div className="flex md:mr-8 lg:mr-6 md:w-1/2 flex-wrap flex-col">
                         <div className={classes.container}>
@@ -107,6 +107,10 @@ const Skills = () => {
                                 <div className={classes.item}>
                                     <img src="/graphql.png" alt="javascript" className={classes.image} />
                                     <div className="m-2">GraphQL</div>
+                                </div>
+                                <div className={classes.item}>
+                                    <img src="/github.png" alt="javascript" className={classes.image} />
+                                    <div className="m-2">GitHub</div>
                                 </div>
                             </div>
                         </div>

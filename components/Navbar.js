@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
 import Link from "next/link";
-import { CgProfile, CgAwards, CgAlbum, CgFileDocument } from "react-icons/cg";
+import { CgProfile, CgAwards, CgAlbum, CgFileDocument, CgTrophy } from "react-icons/cg";
 import { BiMessageDots } from "react-icons/bi";
 import { GoThreeBars } from "react-icons/go";
 
 const classes = {
     li: "m-3 relative w-fit",
-    a: "flex after:content-[''] after:absolute after:bg-slate-900 dark:after:bg-slate-50 after:h-0.5 after:left-0 after:w-0 after:top-6 after:transition-all after:duration-300 hover:after:w-full",
+    a: "flex items-center after:content-[''] after:absolute after:bg-slate-900 dark:after:bg-slate-50 after:h-0.5 after:left-0 after:w-0 after:top-6 after:transition-all after:duration-300 hover:after:w-full",
 };
 const Navbar = () => {
     const [scroll, setScroll] = useState(false);
@@ -71,10 +71,10 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className={classes.li} onClick={hideMenu}>
-                    <Link href="#qualifications">
+                    <Link href="#qualification">
                         <a className={classes.a}>
-                            <CgAwards className="m-0.5" />
-                            Qualifications
+                            <CgTrophy className="m-0.5" />
+                            Qualification
                         </a>
                     </Link>
                 </li>
