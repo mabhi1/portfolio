@@ -29,131 +29,133 @@ const Skills = () => {
         }
     };
     return (
-        <div id="skills" className="min-h-screen pt-36 md:pt-40 lg:pt-28 text-center mx-5 md:mx-20 lg:mx-40">
-            <div className="font-['Helvetica'] text-2xl mb-16">My Technical Skills</div>
-            <div className="md:flex flex-row w-full">
-                <div className="flex md:mr-8 lg:mr-6 md:w-1/2 flex-wrap flex-col">
-                    <div className={classes.container}>
-                        <div className={classes.header} onClick={() => ShowBody("programming")}>
-                            <div className="flex">
-                                <BsCodeSquare className="m-1 mr-3 " />
-                                Languages
-                            </div>
+        <div id="skills">
+            <div className="min-h-screen pt-24 md:pt-40 lg:pt-28 text-center mx-5 md:mx-20 lg:mx-40">
+                <div className="font-['Helvetica'] text-2xl mb-8 md:mb-16">My Technical Skills</div>
+                <div className="md:flex flex-row w-full">
+                    <div className="flex md:mr-8 lg:mr-6 md:w-1/2 flex-wrap flex-col">
+                        <div className={classes.container}>
+                            <div className={classes.header} onClick={() => ShowBody("programming")}>
+                                <div className="flex">
+                                    <BsCodeSquare className="m-1 mr-3 " />
+                                    Languages
+                                </div>
 
-                            <BsCaretDownSquare id="programming-down" className="m-1 text-slate-400" />
-                            <BsCaretUpSquare id="programming-up" className="hidden m-1 text-slate-400" />
+                                <BsCaretDownSquare id="programming-down" className="m-1 text-slate-400" />
+                                <BsCaretUpSquare id="programming-up" className="hidden m-1 text-slate-400" />
+                            </div>
+                            <div className={classes.body} id="programming">
+                                <div className={classes.item}>
+                                    <img src="/python.png" alt="python" className={classes.image} />
+                                    <div className="m-2">Python</div>
+                                </div>
+                                <div className={classes.item}>
+                                    <img src="/javascript.png" alt="javascript" className={classes.image} />
+                                    <div className="m-2">Javascript</div>
+                                </div>
+                                <div className={classes.item}>
+                                    <img src="/typescript.png" alt="javascript" className={classes.image} />
+                                    <div className="m-2">Typescript</div>
+                                </div>
+                            </div>
                         </div>
-                        <div className={classes.body} id="programming">
-                            <div className={classes.item}>
-                                <img src="/python.png" alt="python" className={classes.image} />
-                                <div className="m-2">Python</div>
-                            </div>
-                            <div className={classes.item}>
-                                <img src="/javascript.png" alt="javascript" className={classes.image} />
-                                <div className="m-2">Javascript</div>
-                            </div>
-                            <div className={classes.item}>
-                                <img src="/typescript.png" alt="javascript" className={classes.image} />
-                                <div className="m-2">Typescript</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className={classes.container}>
-                        <div className={classes.header} onClick={() => ShowBody("databases")}>
-                            <div className="flex">
-                                <BsCloud className="m-1 mr-3" />
-                                Databases
-                            </div>
+                        <div className={classes.container}>
+                            <div className={classes.header} onClick={() => ShowBody("databases")}>
+                                <div className="flex">
+                                    <BsCloud className="m-1 mr-3" />
+                                    Databases
+                                </div>
 
-                            <BsCaretDownSquare id="databases-down" className="m-1 text-slate-400" />
-                            <BsCaretUpSquare id="databases-up" className="hidden m-1 text-slate-400" />
-                        </div>
-                        <div className={classes.body} id="databases">
-                            <div className={classes.item}>
-                                <img src="/mongo.png" alt="python" className={classes.image} />
-                                <div className="m-2">MongoDB</div>
+                                <BsCaretDownSquare id="databases-down" className="m-1 text-slate-400" />
+                                <BsCaretUpSquare id="databases-up" className="hidden m-1 text-slate-400" />
                             </div>
-                            <div className={classes.item}>
-                                <img src="/sql.png" alt="javascript" className={classes.image} />
-                                <div className="m-2">SQL</div>
-                            </div>
-                            <div className={classes.item}>
-                                <img src="/redis.png" alt="javascript" className={classes.image} />
-                                <div className="m-2">Redis</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="flex md:w-1/2 flex-wrap flex-col">
-                    <div className={classes.container}>
-                        <div className={classes.header} onClick={() => ShowBody("back")}>
-                            <div className="flex">
-                                <BsHddNetwork className="m-1 mr-3" />
-                                Back End
-                            </div>
-                            <BsCaretDownSquare id="back-down" className="m-1 text-slate-400" />
-                            <BsCaretUpSquare id="back-up" className="hidden m-1 text-slate-400" />
-                        </div>
-                        <div className={classes.body} id="back">
-                            <div className={classes.item}>
-                                <img src="/node.png" alt="javascript" className={classes.image} />
-                                <div className="m-2">Node.js</div>
-                            </div>
-                            <div className={classes.item}>
-                                <img src="/express.png" alt="javascript" className={classes.image} />
-                                <div className="m-2">Express.js</div>
-                            </div>
-                            <div className={classes.item}>
-                                <img src="/graphql.png" alt="javascript" className={classes.image} />
-                                <div className="m-2">GraphQL</div>
+                            <div className={classes.body} id="databases">
+                                <div className={classes.item}>
+                                    <img src="/mongo.png" alt="python" className={classes.image} />
+                                    <div className="m-2">MongoDB</div>
+                                </div>
+                                <div className={classes.item}>
+                                    <img src="/sql.png" alt="javascript" className={classes.image} />
+                                    <div className="m-2">SQL</div>
+                                </div>
+                                <div className={classes.item}>
+                                    <img src="/redis.png" alt="javascript" className={classes.image} />
+                                    <div className="m-2">Redis</div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className={classes.container}>
-                        <div className={classes.header} onClick={() => ShowBody("front")}>
-                            <div className="flex">
-                                <BsBraces className="m-1 mr-3" />
-                                Front End
+                    <div className="flex md:w-1/2 flex-wrap flex-col">
+                        <div className={classes.container}>
+                            <div className={classes.header} onClick={() => ShowBody("back")}>
+                                <div className="flex">
+                                    <BsHddNetwork className="m-1 mr-3" />
+                                    Back End
+                                </div>
+                                <BsCaretDownSquare id="back-down" className="m-1 text-slate-400" />
+                                <BsCaretUpSquare id="back-up" className="hidden m-1 text-slate-400" />
                             </div>
-                            <BsCaretDownSquare id="front-down" className="m-1 text-slate-400" />
-                            <BsCaretUpSquare id="front-up" className="hidden m-1 text-slate-400" />
+                            <div className={classes.body} id="back">
+                                <div className={classes.item}>
+                                    <img src="/node.png" alt="javascript" className={classes.image} />
+                                    <div className="m-2">Node.js</div>
+                                </div>
+                                <div className={classes.item}>
+                                    <img src="/express.png" alt="javascript" className={classes.image} />
+                                    <div className="m-2">Express.js</div>
+                                </div>
+                                <div className={classes.item}>
+                                    <img src="/graphql.png" alt="javascript" className={classes.image} />
+                                    <div className="m-2">GraphQL</div>
+                                </div>
+                            </div>
                         </div>
-                        <div className={classes.body} id="front">
-                            <div className={classes.item}>
-                                <img src="/html.png" alt="javascript" className={classes.image} />
-                                <div className="m-2">HTML</div>
+                        <div className={classes.container}>
+                            <div className={classes.header} onClick={() => ShowBody("front")}>
+                                <div className="flex">
+                                    <BsBraces className="m-1 mr-3" />
+                                    Front End
+                                </div>
+                                <BsCaretDownSquare id="front-down" className="m-1 text-slate-400" />
+                                <BsCaretUpSquare id="front-up" className="hidden m-1 text-slate-400" />
                             </div>
-                            <div className={classes.item}>
-                                <img src="/css.png" alt="javascript" className={classes.image} />
-                                <div className="m-2">CSS</div>
-                            </div>
-                            <div className={classes.item}>
-                                <img src="/firebase.png" alt="javascript" className={classes.image} />
-                                <div className="m-2">Firebase</div>
-                            </div>
-                            <div className={classes.item}>
-                                <img src="/react.png" alt="javascript" className={classes.image} />
-                                <div className="m-2">React.js</div>
-                            </div>
-                            <div className={classes.item}>
-                                <img src="/redux.png" alt="javascript" className={classes.image} />
-                                <div className="m-2">Redux</div>
-                            </div>
-                            <div className={classes.item}>
-                                <img src="/next.png" alt="javascript" className={classes.image} />
-                                <div className="m-2">Next.js</div>
-                            </div>
-                            <div className={classes.item}>
-                                <img src="/bootstrap.png" alt="javascript" className={classes.image} />
-                                <div className="m-2">Bootstrap</div>
-                            </div>
-                            <div className={classes.item}>
-                                <img src="/tailwind.png" alt="javascript" className={classes.image} />
-                                <div className="m-2">Tailwind</div>
-                            </div>
-                            <div className={classes.item}>
-                                <img src="/vue.png" alt="javascript" className={classes.image} />
-                                <div className="m-2">Vue.js</div>
+                            <div className={classes.body} id="front">
+                                <div className={classes.item}>
+                                    <img src="/html.png" alt="javascript" className={classes.image} />
+                                    <div className="m-2">HTML</div>
+                                </div>
+                                <div className={classes.item}>
+                                    <img src="/css.png" alt="javascript" className={classes.image} />
+                                    <div className="m-2">CSS</div>
+                                </div>
+                                <div className={classes.item}>
+                                    <img src="/firebase.png" alt="javascript" className={classes.image} />
+                                    <div className="m-2">Firebase</div>
+                                </div>
+                                <div className={classes.item}>
+                                    <img src="/react.png" alt="javascript" className={classes.image} />
+                                    <div className="m-2">React.js</div>
+                                </div>
+                                <div className={classes.item}>
+                                    <img src="/redux.png" alt="javascript" className={classes.image} />
+                                    <div className="m-2">Redux</div>
+                                </div>
+                                <div className={classes.item}>
+                                    <img src="/next.png" alt="javascript" className={classes.image} />
+                                    <div className="m-2">Next.js</div>
+                                </div>
+                                <div className={classes.item}>
+                                    <img src="/bootstrap.png" alt="javascript" className={classes.image} />
+                                    <div className="m-2">Bootstrap</div>
+                                </div>
+                                <div className={classes.item}>
+                                    <img src="/tailwind.png" alt="javascript" className={classes.image} />
+                                    <div className="m-2">Tailwind</div>
+                                </div>
+                                <div className={classes.item}>
+                                    <img src="/vue.png" alt="javascript" className={classes.image} />
+                                    <div className="m-2">Vue.js</div>
+                                </div>
                             </div>
                         </div>
                     </div>

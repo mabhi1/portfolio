@@ -24,16 +24,14 @@ const Navbar = () => {
     }
     const hideMenu = () => {
         menu.classList.add("opacity-0");
-        menu.classList.remove("opacity-100");
-        menu.classList.add("-mt-60");
-        menu.classList.remove("mt-0");
+        menu.classList.add("-mt-[18rem]");
     };
     return (
         <header
             className={
                 scroll
-                    ? "z-20 block md:justify-around md:flex md:flex-col md:items-center lg:flex-row w-full bg-slate-50/95 dark:bg-slate-900/90 text-slate-900 dark:text-slate-50 font-['Helvetica'] text-base sticky top-0 tracking-wide shadow dark:shadow-slate-50 transition-shadow duration-300 ease-in-out"
-                    : "z-20 block md:justify-around md:flex md:flex-col md:items-center lg:flex-row w-full bg-slate-50/95 dark:bg-slate-900/90 text-slate-900 dark:text-slate-50 font-['Helvetica'] text-base sticky top-0 tracking-wide transition-shadow duration-300 ease-in-out"
+                    ? "z-20 block md:justify-around md:flex md:flex-col md:items-center lg:flex-row w-full bg-slate-50/95 dark:bg-slate-900/90 text-slate-900 dark:text-slate-50 font-['Helvetica'] text-base fixed md:sticky top-0 tracking-wide shadow dark:shadow-slate-50 transition-shadow duration-300 ease-in-out"
+                    : "z-20 block md:justify-around md:flex md:flex-col md:items-center lg:flex-row w-full bg-slate-50/95 dark:bg-slate-900/90 text-slate-900 dark:text-slate-50 font-['Helvetica'] text-base fixed md:sticky top-0 tracking-wide transition-shadow duration-300 ease-in-out"
             }
         >
             <div className="text-xl p-5 flex w-full md:w-auto justify-between ">

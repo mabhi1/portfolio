@@ -1,7 +1,7 @@
 import React from "react";
 
 const Qualifications = () => {
-    return <div>Qualifications</div>;
+    return <div className="min-h-screen">Qualifications</div>;
 };
 
 export default Qualifications;
