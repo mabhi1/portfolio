@@ -95,8 +95,8 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className={classes.li} onClick={hideMenu}>
-                    <Link href="/Resume.pdf">
-                        <a href="/Resume.pdf" className={classes.a} download>
+                    <Link href="/Abhishek_Mishra_Resume.pdf" target="_blank">
+                        <a className={classes.a} target="_blank">
                             <CgFileDocument className="m-1" />
                             Resume
                         </a>

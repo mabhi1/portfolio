@@ -26,9 +26,14 @@ const About = () => {
                         <button className="flex bg-teal-700 text-stone-50 py-3 px-4 mr-3 my-3 rounded hover:shadow-teal-500/50 hover:shadow-md transition-shadow duration-200 ease-in-out">
                             <BiMessageDots className="m-1" /> Contact Me
                         </button>
-                        <button className="flex bg-teal-700 text-stone-50 py-3 px-4 mr-3 my-3 rounded hover:shadow-teal-500/50 hover:shadow-md transition-shadow duration-200 ease-in-out">
+                        <a
+                            className="cursor-pointer flex bg-teal-700 text-stone-50 py-3 px-4 mr-3 my-3 rounded hover:shadow-teal-500/50 hover:shadow-md transition-shadow duration-200 ease-in-out"
+                            href="/Abhishek_Mishra_Resume.pdf"
+                            target="_blank"
+                            download
+                        >
                             <BsDownload className="m-1" /> Download Resume
-                        </button>
+                        </a>
                     </div>
                 </div>
                 <div className="flex m-6 text-lg ml-24">
