@@ -24,7 +24,7 @@ const Qualifications = () => {
                                 <span className="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-teal-500  dark:bg-teal-50 opacity-75"></span>
                                 <span className="relative inline-flex rounded-full h-3 w-3 bg-teal-600 dark:bg-teal-100"></span>
                             </span>
-                            <h2>Bachelor's in Computer Science</h2>
+                            <h2>Bachelor&apos;s in Computer Science</h2>
                             <h3>AKTU, India</h3>
                             <div className="flex">
                                 <FaRegCalendarAlt className="m-1" />
@@ -36,7 +36,7 @@ const Qualifications = () => {
                                 <span className="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-teal-500 dark:bg-teal-50 opacity-75"></span>
                                 <span className="relative inline-flex rounded-full h-3 w-3 bg-teal-600 dark:bg-teal-100"></span>
                             </span>
-                            <h2>Master's in Computer Science</h2>
+                            <h2>Master&apos;s in Computer Science</h2>
                             <h3>Stevens Institute of Technology, NJ</h3>
                             <div className="flex">
                                 <FaRegCalendarAlt className="m-1" />
