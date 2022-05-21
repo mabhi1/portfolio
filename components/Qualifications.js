@@ -21,8 +21,8 @@ const Qualifications = () => {
                     <div className={classes.section}>
                         <div className={classes.subsection}>
                             <span className="flex h-3 w-3 mr-[-27px] mb-[-27px]">
-                                <span class="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-teal-500  dark:bg-teal-50 opacity-75"></span>
-                                <span class="relative inline-flex rounded-full h-3 w-3 bg-teal-600 dark:bg-teal-100"></span>
+                                <span className="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-teal-500  dark:bg-teal-50 opacity-75"></span>
+                                <span className="relative inline-flex rounded-full h-3 w-3 bg-teal-600 dark:bg-teal-100"></span>
                             </span>
                             <h2>Bachelor's in Computer Science</h2>
                             <h3>AKTU, India</h3>
@@ -33,8 +33,8 @@ const Qualifications = () => {
                         </div>
                         <div className={classes.subsection}>
                             <span className="flex h-3 w-3 mr-[-27px] mb-[-27px]">
-                                <span class="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-teal-500 dark:bg-teal-50 opacity-75"></span>
-                                <span class="relative inline-flex rounded-full h-3 w-3 bg-teal-600 dark:bg-teal-100"></span>
+                                <span className="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-teal-500 dark:bg-teal-50 opacity-75"></span>
+                                <span className="relative inline-flex rounded-full h-3 w-3 bg-teal-600 dark:bg-teal-100"></span>
                             </span>
                             <h2>Master's in Computer Science</h2>
                             <h3>Stevens Institute of Technology, NJ</h3>
@@ -53,8 +53,8 @@ const Qualifications = () => {
                     <div className="flex flex-col items-start min-h-[50vh] justify-around">
                         <div className="flex flex-col items-start h-[15vh] justify-evenly">
                             <span className="flex h-3 w-3 ml-[-27px] mb-[-27px]">
-                                <span class="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-teal-500 dark:bg-teal-50 opacity-75"></span>
-                                <span class="relative inline-flex rounded-full h-3 w-3 bg-teal-600 dark:bg-teal-100"></span>
+                                <span className="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-teal-500 dark:bg-teal-50 opacity-75"></span>
+                                <span className="relative inline-flex rounded-full h-3 w-3 bg-teal-600 dark:bg-teal-100"></span>
                             </span>
                             <h2>Data Analyst</h2>
                             <h3>PwC, New Delhi, India</h3>
