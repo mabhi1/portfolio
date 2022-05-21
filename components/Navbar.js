@@ -25,18 +25,18 @@ const Navbar = () => {
     const hideMenu = () => {
         menu.classList.add("opacity-0");
         menu.classList.remove("opacity-100");
-        menu.classList.add("-mt-52");
+        menu.classList.add("-mt-60");
         menu.classList.remove("mt-0");
     };
     return (
         <header
             className={
                 scroll
-                    ? "z-10 block md:justify-around md:flex w-full bg-slate-50/90 dark:bg-slate-900/90 text-slate-900 dark:text-slate-50 font-['Helvetica'] text-base sticky top-0 tracking-wide shadow dark:shadow-slate-50 transition-shadow duration-300 ease-in-out"
-                    : "z-10 block md:justify-around md:flex w-full bg-slate-50/90 dark:bg-slate-900/90 text-slate-900 dark:text-slate-50 font-['Helvetica'] text-base sticky top-0 tracking-wide transition-shadow duration-300 ease-in-out"
+                    ? "z-20 block md:justify-around md:flex md:flex-col md:items-center lg:flex-row w-full bg-slate-50/95 dark:bg-slate-900/90 text-slate-900 dark:text-slate-50 font-['Helvetica'] text-base sticky top-0 tracking-wide shadow dark:shadow-slate-50 transition-shadow duration-300 ease-in-out"
+                    : "z-20 block md:justify-around md:flex md:flex-col md:items-center lg:flex-row w-full bg-slate-50/95 dark:bg-slate-900/90 text-slate-900 dark:text-slate-50 font-['Helvetica'] text-base sticky top-0 tracking-wide transition-shadow duration-300 ease-in-out"
             }
         >
-            <div className="p-5 flex w-full md:w-auto justify-between ">
+            <div className="text-xl p-5 flex w-full md:w-auto justify-between ">
                 Portfolio
                 <GoThreeBars
                     className="m-1 md:hidden"
@@ -44,27 +44,23 @@ const Navbar = () => {
                         const menu = document.getElementById("menu");
                         if (menu.classList.contains("opacity-0")) {
                             menu.classList.remove("opacity-0");
-                            menu.classList.add("opacity-100");
-                            menu.classList.remove("-mt-52");
-                            menu.classList.add("mt-0");
+                            menu.classList.remove("-mt-[18rem]");
                         } else {
                             menu.classList.add("opacity-0");
-                            menu.classList.remove("opacity-100");
-                            menu.classList.add("-mt-52");
-                            menu.classList.remove("mt-0");
+                            menu.classList.add("-mt-[18rem]");
                         }
                     }}
                 />
             </div>
             <ul
-                className="opacity-0 w-fit -mt-52 md:opacity-100 md:mt-0 md:h-auto md:flex md:flex-row flex-col justify-end p-2 transition-all duration-500"
+                className="opacity-0 w-fit -mt-[18rem] md:opacity-100 md:mt-0 md:h-auto md:flex md:flex-row flex-col justify-end p-2 transition-all duration-500"
                 id="menu"
             >
                 <li className={classes.li} onClick={hideMenu}>
                     <Link href="/">
                         <a className={classes.a}>
                             <CgProfile className="m-1" />
-                            About
+                            About Me
                         </a>
                     </Link>
                 </li>
@@ -73,6 +69,14 @@ const Navbar = () => {
                         <a className={classes.a}>
                             <CgAwards className="m-0.5" />
                             Skills
+                        </a>
+                    </Link>
+                </li>
+                <li className={classes.li} onClick={hideMenu}>
+                    <Link href="#qualifications">
+                        <a className={classes.a}>
+                            <CgAwards className="m-0.5" />
+                            Qualifications
                         </a>
                     </Link>
                 </li>
