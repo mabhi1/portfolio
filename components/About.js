@@ -7,7 +7,7 @@ const About = () => {
     return (
         <div
             id="about"
-            className="pt-20 md:pt-0 flex flex-col-reverse md:flex-row justify-evenly min-h-[50vh] md:min-h-[50vh] lg:min-h-[90vh] items-center"
+            className="flex flex-col-reverse md:flex-row justify-center md:justify-evenly min-h-screen md:min-h-[50vh] lg:min-h-[90vh] items-center"
         >
             <div className="text-center md:text-left m-5">
                 <div className="md:text-xl">Hello, My Name is</div>
@@ -41,7 +41,7 @@ const About = () => {
                     <BsArrowDownCircle className="animate-bounce m-2" />
                 </div>
             </div>
-            <div className="w-52 h-52 rounded-full bg-teal-500"></div>
+            <div className="w-52 h-52 mb-[50px] md:mb-0 rounded-full bg-teal-500"></div>
         </div>
     );
 };

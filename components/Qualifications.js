@@ -8,7 +8,7 @@ const classes = {
 };
 const Qualifications = () => {
     return (
-        <div id="qualification" className="min-h-[90vh] md:min-h-[90vh] lg:min-h-screen lg:mb-28">
+        <div id="qualification" className="min-h-screen md:min-h-[90vh] lg:min-h-screen lg:mb-28">
             <div className="pt-24 md:pt-40 lg:pt-28 text-center mx-5 md:mx-20 lg:mx-40">
                 <div className="text-2xl mb-8 md:mb-16">My Qualifications</div>
             </div>
