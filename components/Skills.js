@@ -30,7 +30,7 @@ const Skills = () => {
     };
     return (
         <div id="skills">
-            <div className="min-h-[85vh] md:min-h-0 lg:min-h-[85vh] pt-24 md:pt-40 lg:pt-28 text-center mx-5 md:mx-20 lg:mx-40">
+            <div className="min-h-[80vh] md:min-h-0 lg:min-h-[85vh] pt-24 md:pt-40 lg:pt-28 text-center mx-5 md:mx-20 lg:mx-40">
                 <div className="text-2xl mb-8 md:mb-16">My Technical Skills</div>
                 <div className="md:flex flex-row w-full">
                     <div className="flex md:mr-8 lg:mr-6 md:w-1/2 flex-wrap flex-col">
