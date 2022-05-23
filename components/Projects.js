@@ -37,11 +37,11 @@ const Projects = () => {
                             href="https://github.com/mabhi1/Grocery-E-commerce-Web-Application"
                             className={classes.links}
                             target="_blank"
-                            rel="_noreferrer"
+                            rel="noopener noreferrer"
                         >
                             <BsGithub />
                         </a>
-                        <a href="https://animated-meerkat-2d5d3b.netlify.app/" className={classes.links} target="_blank" rel="_noreferrer">
+                        <a href="https://animated-meerkat-2d5d3b.netlify.app/" className={classes.links} target="_blank" rel="noopener noreferrer">
                             <FiExternalLink />
                         </a>
                     </div>
@@ -61,10 +61,10 @@ const Projects = () => {
                         <MdOutlineSubtitles className="m-auto" />A question and answer portal to collaborate
                     </h2>
                     <div className={classes.body}>
-                        <a href="https://github.com/mabhi1/cs-546-Questionnaire-" className={classes.links} target="_blank" rel="_noreferrer">
+                        <a href="https://github.com/mabhi1/cs-546-Questionnaire-" className={classes.links} target="_blank" rel="noopener noreferrer">
                             <BsGithub />
                         </a>
-                        <a href="https://questionnaire-node.herokuapp.com/" className={classes.links} target="_blank" rel="_noreferrer">
+                        <a href="https://questionnaire-node.herokuapp.com/" className={classes.links} target="_blank" rel="noopener noreferrer">
                             <FiExternalLink />
                         </a>
                     </div>
