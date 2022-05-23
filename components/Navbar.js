@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
+import { FaMoon } from "react-icons/fa";
 import Link from "next/link";
 import { CgProfile, CgAwards, CgAlbum, CgFileDocument, CgTrophy } from "react-icons/cg";
 import { BiMessageDots } from "react-icons/bi";
@@ -36,22 +37,43 @@ const Navbar = () => {
         >
             <div className="text-xl p-5 flex w-full md:w-auto justify-between ">
                 Portfolio
-                <GoThreeBars
-                    className="m-1 md:hidden"
-                    onClick={() => {
-                        const menu = document.getElementById("menu");
-                        if (menu.classList.contains("opacity-0")) {
-                            menu.classList.remove("opacity-0");
-                            menu.classList.remove("-mt-[18rem]");
-                        } else {
-                            menu.classList.add("opacity-0");
-                            menu.classList.add("-mt-[18rem]");
-                        }
-                    }}
-                />
+                <div className="flex md:hidden">
+                    <div>
+                        {mode && mode === "dark" ? (
+                            <MdLightMode
+                                className="w-6 m-1 h-auto cursor-pointer"
+                                onClick={() => {
+                                    document.documentElement.className = "";
+                                    setMode("");
+                                }}
+                            />
+                        ) : (
+                            <FaMoon
+                                className="w-5 m-1 h-auto cursor-pointer"
+                                onClick={() => {
+                                    document.documentElement.className = "dark";
+                                    setMode("dark");
+                                }}
+                            />
+                        )}
+                    </div>
+                    <GoThreeBars
+                        className="m-1 md:hidden"
+                        onClick={() => {
+                            const menu = document.getElementById("menu");
+                            if (menu.classList.contains("opacity-0")) {
+                                menu.classList.remove("opacity-0");
+                                menu.classList.remove("-mt-[15.5rem]");
+                            } else {
+                                menu.classList.add("opacity-0");
+                                menu.classList.add("-mt-[15.5rem]");
+                            }
+                        }}
+                    />
+                </div>
             </div>
             <ul
-                className="opacity-0 w-fit -mt-[18rem] md:opacity-100 md:mt-0 md:h-auto md:flex md:flex-row flex-col justify-end p-2 transition-all duration-500"
+                className="opacity-0 w-fit -mt-[15.5rem] md:opacity-100 md:mt-0 md:h-auto md:flex md:flex-row flex-col justify-end p-2 transition-all duration-500"
                 id="menu"
             >
                 <li className={classes.li} onClick={hideMenu}>
@@ -102,7 +124,7 @@ const Navbar = () => {
                         </a>
                     </Link>
                 </li>
-                <li className="m-1">
+                <li className="m-1 hidden md:block">
                     {mode && mode === "dark" ? (
                         <MdLightMode
                             className="w-8 h-auto cursor-pointer"
@@ -112,8 +134,8 @@ const Navbar = () => {
                             }}
                         />
                     ) : (
-                        <MdDarkMode
-                            className="w-8 h-auto cursor-pointer"
+                        <FaMoon
+                            className="w-7 h-auto cursor-pointer"
                             onClick={() => {
                                 document.documentElement.className = "dark";
                                 setMode("dark");

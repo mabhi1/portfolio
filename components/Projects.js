@@ -22,7 +22,7 @@ const Projects = () => {
             <div className="pt-24 md:pt-40 lg:pt-28 text-center mx-5 md:mx-20 lg:mx-40">
                 <div className="text-2xl mb-8 md:mb-16">My Projects</div>
             </div>
-            <div className="text-slate-700 dark:text-slate-50 font-['Helvetica'] text-center flex w-full px-5 md:px-32 flex-wrap justify-center">
+            <div className="text-slate-700 dark:text-slate-50 font-['Helvetica'] text-center flex w-full px-5 flex-wrap justify-center">
                 <div className={classes.cards}>
                     <div>
                         <Image src="/asianmart.png" className={classes.image} width={300} height={140} />
