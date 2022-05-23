@@ -5,7 +5,7 @@ const classes = {
     container: "block w-full",
     header: "relative flex justify-between w-full bg-slate-100 dark:bg-slate-900 rounded p-5 dark:border-2 dark:border-slate-50 z-10 cursor-pointer",
     body: "flex flex-wrap p-5 justify-between rounded -mt-16 md:-mt-24 lg:-mt-16 opacity-0 transition-all duration-300 text-left border-0",
-    image: "w-10 hidden md:block",
+    image: "w-10 hidden md:block scale-100",
     item: "flex md:m-1",
     typewriter: "tracking-wider text-sm font-sans text-cyan-800",
 };
@@ -30,7 +30,7 @@ const Skills = () => {
     };
     return (
         <div id="skills">
-            <div className="md:min-h-[60vh] lg:min-h-[85vh] pt-24 md:pt-40 lg:pt-28 text-center mx-5 md:mx-20 lg:mx-40">
+            <div className="lg:min-h-[85vh] pt-24 md:pt-40 lg:pt-28 text-center mx-5 md:mx-20 lg:mx-40">
                 <div className="text-2xl mb-8 md:mb-16">My Technical Skills</div>
                 <div className="md:flex flex-row w-full">
                     <div className="flex md:mr-8 lg:mr-6 md:w-1/2 flex-wrap flex-col">
@@ -57,6 +57,10 @@ const Skills = () => {
                                     <img src="/typescript.png" alt="javascript" className={classes.image} />
                                     <div className="m-2">Typescript</div>
                                 </div>
+                                <div className={classes.item}>
+                                    <img src="/sql.png" alt="javascript" className={classes.image} />
+                                    <div className="m-2">SQL</div>
+                                </div>
                             </div>
                         </div>
                         <div className={classes.container}>
@@ -75,8 +79,8 @@ const Skills = () => {
                                     <div className="m-2">MongoDB</div>
                                 </div>
                                 <div className={classes.item}>
-                                    <img src="/sql.png" alt="javascript" className={classes.image} />
-                                    <div className="m-2">SQL</div>
+                                    <img src="/mysql.png" alt="javascript" className={classes.image} />
+                                    <div className="m-2">MySQL</div>
                                 </div>
                                 <div className={classes.item}>
                                     <img src="/redis.png" alt="javascript" className={classes.image} />
