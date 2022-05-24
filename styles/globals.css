@@ -5,3 +5,7 @@
 html{
   scroll-behavior: smooth;
 }
+
+:focus-visible {
+  outline: rgb(71, 85, 105) auto 1px
+}

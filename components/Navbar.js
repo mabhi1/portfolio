@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { MdDarkMode, MdLightMode } from "react-icons/md";
+import { MdLightMode } from "react-icons/md";
 import { FaMoon } from "react-icons/fa";
 import Link from "next/link";
 import { CgProfile, CgAwards, CgAlbum, CgFileDocument, CgTrophy } from "react-icons/cg";
@@ -31,8 +31,8 @@ const Navbar = () => {
         <header
             className={
                 scroll
-                    ? "z-20 block md:justify-around md:flex md:flex-col md:items-center lg:flex-row w-full bg-slate-50/95 dark:bg-slate-900/90 text-slate-900 dark:text-slate-50 font-['Helvetica'] text-base fixed md:sticky top-0 tracking-wide shadow dark:shadow-slate-50 transition-shadow duration-300 ease-in-out"
-                    : "z-20 block md:justify-around md:flex md:flex-col md:items-center lg:flex-row w-full bg-slate-50/95 dark:bg-slate-900/90 text-slate-900 dark:text-slate-50 font-['Helvetica'] text-base fixed md:sticky top-0 tracking-wide transition-shadow duration-300 ease-in-out"
+                    ? "z-20 block md:justify-around md:flex md:flex-col md:items-center lg:flex-row w-full bg-slate-50/95 dark:bg-slate-900 text-slate-900 dark:text-slate-50 font-['Helvetica'] text-base fixed md:sticky top-0 tracking-wide shadow dark:shadow-slate-700 transition-shadow duration-300 ease-in-out"
+                    : "z-20 block md:justify-around md:flex md:flex-col md:items-center lg:flex-row w-full bg-slate-50/95 dark:bg-slate-900 text-slate-900 dark:text-slate-50 font-['Helvetica'] text-base fixed md:sticky top-0 tracking-wide transition-shadow duration-300 ease-in-out"
             }
         >
             <div className="text-xl p-5 flex w-full md:w-auto justify-between ">
@@ -109,7 +109,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className={classes.li} onClick={hideMenu}>
-                    <Link href="#projects">
+                    <Link href="#contact">
                         <a className={classes.a}>
                             <BiMessageDots className="m-1" />
                             Contact Me

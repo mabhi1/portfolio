@@ -18,7 +18,7 @@ const classes = {
 
 const Projects = () => {
     return (
-        <div id="projects" className="lg:min-h-screen mb-28">
+        <div id="projects" className="md:min-h-[60vh] lg:min-h-[90vh] mb-40">
             <div className="pt-24 md:pt-40 lg:pt-28 text-center mx-5 md:mx-20 lg:mx-40">
                 <div className="text-2xl mb-8 md:mb-16">My Projects</div>
             </div>
