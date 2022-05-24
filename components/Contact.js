@@ -12,7 +12,7 @@ const classes = {
     heading: "dark:text-slate-50",
     description: "text-slate-500",
     input: " bg-teal-100 m-1 p-4 rounded resize-none text-slate-600 hover:shadow transition duration-200 dark:hover:shadow dark:hover:shadow-slate-50",
-    submit: "bg-teal-700 p-2 px-3 cursor-pointer rounded text-slate-50 m-1 flex hover:shadow-teal-500/50 hover:shadow-md hover:translate-x-1 transition-all duration-200",
+    submit: "bg-teal-700 p-2 px-3 cursor-pointer rounded text-slate-50 m-1 flex hover:shadow-teal-500/50 hover:shadow-md transition-all duration-200",
     alert: "hidden flex rounded shadow-lg p-3 px-5 text-slate-50 fixed top-[85px] right-2 animate-[alert_500ms_ease-in-out]",
 };
 const Contact = () => {
@@ -64,7 +64,7 @@ const Contact = () => {
         }
     };
     return (
-        <div id="contact" className="md:min-h-[60vh] lg:min-h-[90vh]">
+        <div id="contact" className="min-h-screen md:min-h-[85vh] lg:min-h-screen">
             <div className="pt-24 md:pt-40 lg:pt-28 text-center mx-5 md:mx-20 lg:mx-40">
                 <div className="text-2xl mb-8 md:mb-16">Contact Me</div>
             </div>
@@ -118,8 +118,8 @@ const Contact = () => {
                             required
                             className={"w-full lg:w-[91.5%] h-[130px]" + classes.input}
                         />
-                        <button type="submit" className={classes.submit} onClick={handleSubmit}>
-                            Send Message <BiSend className="m-1" />
+                        <button type="submit" className={"group " + classes.submit} onClick={handleSubmit}>
+                            Send Message <BiSend className="m-1 group-hover:translate-x-1 transition-all duration-200" />
                         </button>
                         <div id="alert" className={classes.alert}>
                             {alert ? (

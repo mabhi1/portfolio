@@ -25,7 +25,7 @@ const Navbar = () => {
     }
     const hideMenu = () => {
         menu.classList.add("opacity-0");
-        menu.classList.add("-mt-[18rem]");
+        menu.classList.add("-mt-[15.5rem]");
     };
     return (
         <header

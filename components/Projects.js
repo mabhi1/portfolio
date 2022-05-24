@@ -13,7 +13,7 @@ const classes = {
     body: "m-1 flex justify-center h-9",
     links: "m-2 mx-3 text-xl hover:text-teal-700",
     footer: "m-0 flex items-center",
-    button: "flex m-auto bg-teal-700 p-1 text-slate-50 rounded px-4 pr-2 hover:bg-slate-50 hover:text-teal-700 border border-teal-700",
+    button: "group flex m-auto bg-teal-700 p-1 hover:shadow hover:bg-teal-800 text-slate-50 rounded px-4 pr-2 border border-teal-700",
 };
 
 const Projects = () => {
@@ -48,7 +48,7 @@ const Projects = () => {
                     <div className={classes.footer}>
                         <a href="#" className={classes.button}>
                             Read More
-                            <AiFillCaretRight className="m-1 mr-0" />
+                            <AiFillCaretRight className="m-1 mr-0 group-hover:translate-x-1 transition duration-300" />
                         </a>
                     </div>
                 </div>
@@ -71,7 +71,7 @@ const Projects = () => {
                     <div className={classes.footer}>
                         <a href="#" className={classes.button}>
                             Read More
-                            <AiFillCaretRight className="m-1 mr-0" />
+                            <AiFillCaretRight className="m-1 mr-0 group-hover:translate-x-1 transition duration-300" />
                         </a>
                     </div>
                 </div>

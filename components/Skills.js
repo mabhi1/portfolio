@@ -3,11 +3,10 @@ import { BsCaretDownSquare, BsCaretUpSquare, BsBraces, BsCodeSquare, BsCloud, Bs
 
 const classes = {
     container: "block w-full",
-    header: "relative flex justify-between w-full bg-slate-100 dark:bg-slate-900 rounded p-5 dark:border-2 dark:border-slate-50 z-10 cursor-pointer",
+    header: "relative hover:bg-slate-300 dark:hover:bg-slate-800 flex justify-between w-full bg-slate-100 dark:bg-slate-900 rounded p-5 dark:border-2 dark:border-slate-800 z-10 cursor-pointer",
     body: "flex flex-wrap p-5 justify-between rounded -mt-16 md:-mt-24 lg:-mt-16 opacity-0 transition-all duration-300 text-left border-0",
     image: "w-10 hidden md:block scale-100",
     item: "flex md:m-1",
-    typewriter: "tracking-wider text-sm font-sans text-cyan-800",
 };
 const Skills = () => {
     const ShowBody = (sectionName) => {
@@ -30,7 +29,7 @@ const Skills = () => {
     };
     return (
         <div id="skills">
-            <div className="min-h-[72vh] md:min-h-0 lg:min-h-[85vh] pt-24 md:pt-40 lg:pt-28 text-center mx-5 md:mx-20 lg:mx-40">
+            <div className="min-h-[72vh] md:min-h-0 lg:min-h-[78vh] pt-24 md:pt-40 lg:pt-28 text-center mx-5 md:mx-20 lg:mx-40">
                 <div className="text-2xl mb-8 md:mb-16">My Technical Skills</div>
                 <div className="md:flex flex-row w-full">
                     <div className="flex md:mr-8 lg:mr-6 md:w-1/2 flex-wrap flex-col">
