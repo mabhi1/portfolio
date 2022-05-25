@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { FaGraduationCap, FaBriefcase, FaRegCalendarAlt, FaBookReader } from "react-icons/fa";
+import { AiFillCaretRight } from "react-icons/ai";
 import Image from "next/image";
 
 const classes = {
     heading:
         "relative flex justify-start items-center p-4 rounded md:rounded-l md:rounded-none m-1 md:m-0 md:pr-24 md:mr-5 cursor-pointer w-full transition duration-300",
-    section: "overflow-y-auto rounded md:min-h-[35vh] lg:min-h-[45vh] animate-[qualifications_1000ms_ease-in-out]",
+    section: "overflow-y-auto rounded md:min-h-[35vh] lg:min-h-[45vh] animate-[qualifications_500ms_ease-in-out]",
 };
 const Qualifications = () => {
     const [selected, setSelected] = useState("edu");

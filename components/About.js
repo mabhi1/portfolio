@@ -9,7 +9,7 @@ const About = () => {
     return (
         <div
             id="about"
-            className="animate-[front_1000ms_ease-in-out] flex flex-col-reverse md:flex-row justify-center md:justify-evenly min-h-screen md:min-h-[50vh] lg:min-h-[90vh] items-center"
+            className="animate-[front_500ms_ease-in-out] flex flex-col-reverse md:flex-row justify-center md:justify-evenly min-h-screen md:min-h-[50vh] lg:min-h-[90vh] items-center"
         >
             <div className="flex">
                 <div className="m-5 h-32 hidden md:flex flex-col justify-evenly text-2xl">
@@ -24,7 +24,7 @@ const About = () => {
                     <div className="md:text-xl">Hello, My Name is</div>
                     <h1 className="text-3xl md:text-5xl antialized font-light pb-2 tracking-wider">Abhishek Mishra</h1>
                     <div className="antialized text-slate-700 dark:text-slate-400">
-                        <div className="text-2xl underline decoration-sky-500/30">
+                        <div className="text-2xl h-8">
                             <Typewriter
                                 options={{
                                     strings: ["Software Engineer", "Enthusiast programmer", "Full Stack Developer"],

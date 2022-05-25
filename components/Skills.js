@@ -2,7 +2,7 @@ import React from "react";
 import { BsBraces, BsCodeSquare, BsCloud, BsHddNetwork } from "react-icons/bs";
 
 const classes = {
-    container: "block w-[94%] md:mb-10",
+    container: "block w-[94%] mb-10",
     header: "relative bg-slate-100 shadow shadow-[0px,5px,45px,rgba(255,255,255,0.1)] dark:shadow dark:shadow-slate-100/50 flex justify-between w-full dark:bg-slate-700 rounded p-5 z-10",
     body: "flex flex-wrap pt-5 justify-start rounded text-left border-0",
     image: "w-10 hidden md:block scale-100 hover:scale-110 transition duration-300",
@@ -11,7 +11,7 @@ const classes = {
 const Skills = () => {
     return (
         <div id="skills">
-            <div className="min-h-[95vh] md:min-h-[85vh] lg:min-h-[110vh] pt-24 md:pt-40 lg:pt-28 text-center mx-5 md:mx-20 lg:mx-40">
+            <div className="min-h-[110vh] md:min-h-[85vh] lg:min-h-[110vh] pt-24 md:pt-40 lg:pt-28 text-center mx-5 md:mx-20 lg:mx-40">
                 <div className="text-2xl mb-8 md:mb-24">My Technical Skills</div>
                 <div className="md:flex flex-row w-full">
                     <div className="flex md:mr-8 lg:mr-6 md:w-1/2 flex-wrap flex-col">
