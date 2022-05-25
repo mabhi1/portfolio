@@ -34,13 +34,13 @@ const About = () => {
                             />
                         </div>
                         <div className="flex justify-center md:justify-start">
-                            <button className="dark:hover:shadow-[0px_0px_8px_3px_rgb(15,118,110,0.4)] flex bg-teal-700 text-stone-50 py-3 px-4 m-1 md:m-3 md:ml-0 rounded hover:shadow-teal-500/50 hover:shadow-md transition duration-200 ease-in-out hover:translate-x-1">
+                            <button className="dark:hover:shadow-[0px_0px_8px_3px_rgb(21,94,117,0.4)] flex dark:bg-cyan-700 bg-cyan-800 text-stone-50 py-3 px-4 m-1 md:m-3 md:ml-0 rounded hover:shadow-cyan-500/50 hover:shadow-md transition duration-200 ease-in-out hover:translate-x-1">
                                 <a href="#contact" className="flex">
                                     <BiMessageDots className="m-1" /> Contact Me
                                 </a>
                             </button>
                             <a
-                                className="dark:hover:shadow-[0px_0px_8px_3px_rgb(15,118,110,0.4)] cursor-pointer flex bg-teal-700 text-stone-50 py-3 px-4 m-1 md:m-3 md:ml-0 rounded hover:shadow-teal-500/50 hover:shadow-md transition duration-200 ease-in-out hover:translate-x-1"
+                                className="dark:hover:shadow-[0px_0px_8px_3px_rgb(21,94,117,0.4)] cursor-pointer flex dark:bg-cyan-700 bg-cyan-800 text-stone-50 py-3 px-4 m-1 md:m-3 md:ml-0 rounded hover:shadow-cyan-500/50 hover:shadow-md transition duration-200 ease-in-out hover:translate-x-1"
                                 href="/Abhishek_Mishra_Resume.pdf"
                                 target="_blank"
                                 download
@@ -50,7 +50,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div className="flex m-6 text-lg justify-center md:justify-end group">
+                    <div className="hidden lg:flex m-6 text-lg justify-center md:justify-end group">
                         <Link href="#skills">
                             <a className="dark:hover:text-slate-400 hover:text-slate-600 underline">Scroll Down</a>
                         </Link>

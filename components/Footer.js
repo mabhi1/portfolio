@@ -8,7 +8,7 @@ const classes = {
 };
 const Footer = () => {
     return (
-        <div className="bg-teal-700 dark:bg-teal-800 text-slate-50">
+        <div className="bg-cyan-700 dark:bg-cyan-800 text-slate-50">
             <div className="md:flex min-h-[15vh] lg:min-h-[25vh] justify-between font-['Helvetica'] p-4 md:p-0">
                 <div className={classes.section + " pl-6"}>
                     <h3 className="text-lg">Abhishek Mishra</h3>
@@ -38,8 +38,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex p-3 justify-center bg-teal-800 dark:bg-teal-900 text-slate-300">
-                <MdOutlineCopyright className="m-1" /> Portfolio. All Rights Reserved
+            <div className="flex p-3 justify-center bg-cyan-800 dark:bg-cyan-900 text-slate-300">
+                Copyright <MdOutlineCopyright className="m-1" /> 2022. All Rights Reserved
             </div>
         </div>
     );

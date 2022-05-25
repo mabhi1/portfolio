@@ -13,7 +13,7 @@ const classes = {
     body: "m-1 flex justify-center h-9",
     links: "m-2 mx-3 text-xl hover:text-teal-700",
     footer: "m-0 flex items-center",
-    button: "group flex m-auto bg-teal-700 p-1 hover:shadow hover:bg-teal-800 text-slate-50 rounded px-4 pr-2 border border-teal-700",
+    button: "group flex m-auto bg-cyan-800 dark:bg-cyan-700 p-1 hover:shadow dark:hover:bg-cyan-800 hover:bg-cyan-900 text-slate-50 rounded px-4 pr-2 border border-teal-700",
 };
 
 const Projects = () => {
@@ -58,7 +58,7 @@ const Projects = () => {
                     </div>
                     <h1 className={classes.header}>Questionnaire</h1>
                     <h2 className={classes.description}>
-                        <MdOutlineSubtitles className="m-auto" />A question and answer portal to collaborate
+                        <MdOutlineSubtitles className="m-auto" />A question and answer portal to find information
                     </h2>
                     <div className={classes.body}>
                         <a href="https://github.com/mabhi1/cs-546-Questionnaire-" className={classes.links} target="_blank" rel="noopener noreferrer">

@@ -21,10 +21,11 @@ const Qualifications = () => {
                     <div className={classes.section}>
                         <div className={classes.subsection}>
                             <span className="flex h-3 w-3 mr-[-27px] mb-[-27px] md:mb-[-45px] lg:mb-[-27px] md:mr-[-63px]">
-                                <span className="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-teal-500  dark:bg-teal-50 opacity-75"></span>
-                                <span className="relative inline-flex rounded-full h-3 w-3 bg-teal-600 dark:bg-teal-100"></span>
+                                <span className="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-cyan-600  dark:bg-teal-50 opacity-75"></span>
+                                <span className="relative inline-flex rounded-full h-3 w-3 bg-cyan-800 dark:bg-teal-100"></span>
                             </span>
                             <h2 className="text-slate-900 dark:text-slate-50">Bachelor&apos;s in Computer Science</h2>
+                            <span>Courses - Data Structures, Algorithms, Web Technology, Computer Networks, DBMS</span>
                             <h3 className="text-sm italic">AKTU, India</h3>
                             <div className="flex text-sm italic">
                                 <FaRegCalendarAlt className="m-1" />
@@ -33,8 +34,8 @@ const Qualifications = () => {
                         </div>
                         <div className={classes.subsection}>
                             <span className="flex h-3 w-3 mr-[-27px] mb-[-27px] md:mb-[-45px] lg:mb-[-27px] md:mr-[-63px]">
-                                <span className="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-teal-500 dark:bg-teal-50 opacity-75"></span>
-                                <span className="relative inline-flex rounded-full h-3 w-3 bg-teal-600 dark:bg-teal-100"></span>
+                                <span className="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-cyan-600 dark:bg-teal-50 opacity-75"></span>
+                                <span className="relative inline-flex rounded-full h-3 w-3 bg-cyan-800 dark:bg-teal-100"></span>
                             </span>
                             <h2 className="text-slate-900 dark:text-slate-50">Master&apos;s in Computer Science</h2>
                             <h3 className="text-sm italic">Stevens Institute of Technology, NJ</h3>
@@ -53,8 +54,8 @@ const Qualifications = () => {
                     <div className="flex flex-col items-start min-h-[50vh] justify-around">
                         <div className="flex flex-col items-start h-[15vh] justify-evenly">
                             <span className="flex h-3 w-3 ml-[-27px] mb-[-27px] md:mb-[-45px] lg:mb-[-27px] md:ml-[-63px]">
-                                <span className="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-teal-500 dark:bg-teal-50 opacity-75"></span>
-                                <span className="relative inline-flex rounded-full h-3 w-3 bg-teal-600 dark:bg-teal-100"></span>
+                                <span className="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-cyan-600 dark:bg-teal-50 opacity-75"></span>
+                                <span className="relative inline-flex rounded-full h-3 w-3 bg-cyan-800 dark:bg-teal-100"></span>
                             </span>
                             <h2 className="text-slate-900 dark:text-slate-50">Data Analyst</h2>
                             <h3 className="text-sm italic">PwC, New Delhi, India</h3>
