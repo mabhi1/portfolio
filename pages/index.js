@@ -24,7 +24,7 @@ export default function Home() {
                 <title>Abhishek Mishra</title>
                 <link rel="icon" href="/logo.png" />
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-                <meta name="description" content="Abhishek's Portfolio" />
+                <meta name="description" content="Portfolio" />
             </Head>
             <div className="selection:bg-cyan-300 selection:text-cyan-900 dark:bg-slate-900 font-serif text-slate-900 dark:text-slate-50 text-base divide-y-2 dark:divide-slate-800">
                 {position > 350 ? (
