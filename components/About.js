@@ -9,7 +9,7 @@ const About = () => {
     return (
         <div
             id="about"
-            className="flex flex-col-reverse md:flex-row justify-center md:justify-evenly min-h-screen md:min-h-[50vh] lg:min-h-[90vh] items-center"
+            className="animate-[front_1000ms_ease-in-out] flex flex-col-reverse md:flex-row justify-center md:justify-evenly min-h-screen md:min-h-[50vh] lg:min-h-[90vh] items-center"
         >
             <div className="flex">
                 <div className="m-5 h-32 hidden md:flex flex-col justify-evenly text-2xl">
