@@ -34,11 +34,13 @@ const About = () => {
                             />
                         </div>
                         <div className="flex justify-center md:justify-start">
-                            <button className="dark:hover:shadow-[0px_0px_8px_3px_rgb(21,94,117,0.4)] flex dark:bg-cyan-700 bg-cyan-800 text-stone-50 py-3 px-4 m-1 md:m-3 md:ml-0 rounded hover:shadow-cyan-500/50 hover:shadow-md transition duration-200 ease-in-out hover:translate-x-1">
-                                <a href="#contact" className="flex">
-                                    <BiMessageDots className="m-1" /> Contact Me
-                                </a>
-                            </button>
+                            <a
+                                href="#contact"
+                                className="dark:hover:shadow-[0px_0px_8px_3px_rgb(21,94,117,0.4)] flex dark:bg-cyan-700 bg-cyan-800 text-stone-50 py-3 px-4 m-1 md:m-3 md:ml-0 rounded hover:shadow-cyan-500/50 hover:shadow-md transition duration-200 ease-in-out hover:translate-x-1"
+                            >
+                                <BiMessageDots className="m-1" /> Contact Me
+                            </a>
+
                             <a
                                 className="dark:hover:shadow-[0px_0px_8px_3px_rgb(21,94,117,0.4)] cursor-pointer flex dark:bg-cyan-700 bg-cyan-800 text-stone-50 py-3 px-4 m-1 md:m-3 md:ml-0 rounded hover:shadow-cyan-500/50 hover:shadow-md transition duration-200 ease-in-out hover:translate-x-1"
                                 href="/Abhishek_Mishra_Resume.pdf"
