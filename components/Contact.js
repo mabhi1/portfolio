@@ -68,7 +68,7 @@ const Contact = () => {
             <div className="pt-24 md:pt-40 lg:pt-28 text-center mx-5 md:mx-20 lg:mx-40">
                 <div className="text-2xl mb-8 md:mb-16">Contact Me</div>
             </div>
-            <div className="items-start font-['Helvetica'] m-auto w-3/4 md:p-10 text-slate-700 flex flex-col lg:items-center lg:flex-row">
+            <div className="mb-12 items-start font-['Helvetica'] m-auto w-3/4 md:p-10 text-slate-700 flex flex-col lg:items-center lg:flex-row">
                 <div className="lg:w-1/2">
                     <div className={classes.item}>
                         <BiPhoneCall className={classes.icons} />

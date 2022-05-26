@@ -1,42 +1,58 @@
 import React, { useState } from "react";
 import { FaGraduationCap, FaBriefcase, FaRegCalendarAlt, FaBookReader } from "react-icons/fa";
-import { AiFillCaretRight } from "react-icons/ai";
+import { AiOutlineCaretDown, AiOutlineCaretRight } from "react-icons/ai";
 import Image from "next/image";
 
 const classes = {
     heading:
-        "relative flex justify-start items-center p-4 rounded md:rounded-l md:rounded-none m-1 md:m-0 md:pr-24 md:mr-5 cursor-pointer w-full transition duration-300",
+        "group relative flex justify-start items-center p-4 rounded md:rounded-l md:rounded-none m-1 md:m-0 md:pr-24 cursor-pointer w-full transition duration-300",
     section: "overflow-y-auto rounded md:min-h-[35vh] lg:min-h-[45vh] animate-[qualifications_500ms_ease-in-out]",
 };
 const Qualifications = () => {
     const [selected, setSelected] = useState("edu");
     return (
-        <div id="qualification" className="min-h-[90vh] md:min-h-[75vh] lg:min-h-screen ">
+        <div id="qualification" className="min-h-[90vh] md:min-h-[78vh] lg:min-h-screen ">
             <div className="pt-24 md:pt-40 lg:pt-28 text-center mx-5 md:mx-20 lg:mx-40">
                 <div className="text-2xl mb-8 md:mb-24">My Qualifications</div>
             </div>
-            <div className="font-['Helvetica'] md:flex justify-center w-[85%] md:w-[75%] m-auto">
+            <div className="font-['Helvetica'] md:flex justify-center w-[85%] md:w-[75%] m-auto mb-20">
                 <div className="flex md:block">
                     <button
                         className={
                             classes.heading +
-                            (selected === "edu" ? " bg-cyan-700 dark:bg-cyan-900 text-slate-200" : " hover:bg-slate-200 dark:hover:bg-slate-800")
+                            (selected === "edu"
+                                ? " bg-cyan-700 dark:bg-cyan-900 text-slate-200"
+                                : " bg-slate-200 hover:bg-slate-300 dark:bg-slate-800 dark:hover:bg-slate-800")
                         }
                         onClick={() => setSelected("edu")}
                     >
                         <FaGraduationCap className="m-1" />
                         Education
+                        <AiOutlineCaretRight
+                            className={
+                                "m-1 hidden md:block transition-transform duration-200" + (selected === "work" ? " group-hover:translate-x-1" : "")
+                            }
+                        />
+                        <AiOutlineCaretDown className="m-1 md:hidden" />
                     </button>
                     <button
                         id="work"
                         className={
                             classes.heading +
-                            (selected === "work" ? " bg-cyan-700 dark:bg-cyan-900 text-slate-200" : " hover:bg-slate-200 dark:hover:bg-slate-800")
+                            (selected === "work"
+                                ? " bg-cyan-700 dark:bg-cyan-900 text-slate-200"
+                                : " bg-slate-200 hover:bg-slate-300 dark:bg-slate-800 dark:hover:bg-slate-800")
                         }
                         onClick={() => setSelected("work")}
                     >
                         <FaBriefcase className="m-1" />
                         Work
+                        <AiOutlineCaretRight
+                            className={
+                                "m-1 hidden md:block transition-transform duration-200" + (selected === "edu" ? " group-hover:translate-x-1" : "")
+                            }
+                        />
+                        <AiOutlineCaretDown className="m-1 md:hidden" />
                     </button>
                 </div>
                 <span className="w-full md:w-[1px] bg-cyan-600 mr-10"></span>
