@@ -1,7 +1,7 @@
 import React from "react";
 import { useRouter } from "next/router";
 
-const project = () => {
+const Project = () => {
     const router = useRouter();
     const { id } = router.query;
     if (id && id !== "asianmart" && id !== "questionnaire") {
@@ -11,4 +11,4 @@ const project = () => {
     }
 };
 
-export default project;
+export default Project;
