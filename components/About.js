@@ -4,6 +4,7 @@ import Link from "next/link";
 import { BiMessageDots } from "react-icons/bi";
 import { BsArrowDownCircle, BsDownload } from "react-icons/bs";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
+import Image from "next/image";
 
 const About = () => {
     return (
@@ -20,7 +21,7 @@ const About = () => {
                         <BsLinkedin className="hover:text-teal-700 cursor-pointer" />
                     </a>
                 </div>
-                <div className="text-center md:text-left w-full m-2 md:m-5">
+                <div className="text-center md:text-left w-full m-2 lg:m-5">
                     <div className="md:text-xl">Hello, My Name is</div>
                     <h1 className="text-3xl md:text-5xl antialized font-light pb-2 tracking-wider">Abhishek Mishra</h1>
                     <div className="antialized text-slate-700 dark:text-slate-400">
@@ -50,6 +51,14 @@ const About = () => {
                                 <BsDownload className="m-1" /> Download Resume
                             </a>
                         </div>
+                        <div className="h-auto w-full flex md:hidden flex-row items-center justify-center text-3xl">
+                            <a href="https://github.com/mabhi1" target="_blank" rel="noopener noreferrer" className="m-5">
+                                <BsGithub className="hover:text-teal-700 cursor-pointer" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/mishraabhishek226/" target="_blank" rel="noopener noreferrer" className="m-5">
+                                <BsLinkedin className="hover:text-teal-700 cursor-pointer" />
+                            </a>
+                        </div>
                     </div>
 
                     <div className="hidden lg:flex m-6 text-lg justify-center md:justify-end group">
@@ -61,15 +70,9 @@ const About = () => {
                 </div>
             </div>
             <div className="flex w-full md:w-auto pl-2 md:pl-0">
-                <div className="h-52 w-[22%] flex md:hidden flex-col items-center justify-evenly text-2xl">
-                    <a href="https://github.com/mabhi1" target="_blank" rel="noopener noreferrer">
-                        <BsGithub className="hover:text-teal-700 cursor-pointer" />
-                    </a>
-                    <a href="https://www.linkedin.com/in/mishraabhishek226/" target="_blank" rel="noopener noreferrer">
-                        <BsLinkedin className="hover:text-teal-700 cursor-pointer" />
-                    </a>
+                <div className="md:w-[20rem] md:h-[17rem] lg:w-[30rem] lg:h-[25rem] rounded-full ">
+                    <Image src="/front.webp" width={570} height={450} />
                 </div>
-                <div className="w-52 h-52 mb-[50px] rounded-full bg-teal-500"></div>
             </div>
         </div>
     );

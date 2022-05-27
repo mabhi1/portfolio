@@ -1,5 +1,6 @@
 import React from "react";
 import { useRouter } from "next/router";
+import Header from "../components/project/Header";
 
 const Project = () => {
     const router = useRouter();
@@ -7,7 +8,11 @@ const Project = () => {
     if (id && id !== "asianmart" && id !== "questionnaire") {
         router.replace("/404", window.location.toString());
     } else {
-        return <div>{id}</div>;
+        return (
+            <div>
+                <Header id={id} />
+            </div>
+        );
     }
 };
 
