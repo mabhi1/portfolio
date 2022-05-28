@@ -10,7 +10,7 @@ const classes = {
 };
 const Header = ({ data }) => {
     return (
-        <div className="w-full lg:flex h-auto pt-24 md:pt-20">
+        <div className="w-full lg:flex h-auto pt-16 md:pt-20">
             <div className="flex justify-center lg:w-[55%] m-3 lg:ml-10 rounded transition duration-200">
                 <Image
                     src={data.image}
