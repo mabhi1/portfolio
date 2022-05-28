@@ -24,19 +24,19 @@ const Skills = () => {
                             </div>
                             <div className={classes.body} id="programming">
                                 <div className={classes.item}>
-                                    <img src="/python.png" alt="python" className={classes.image} />
+                                    <img src="/python.png" alt="Python" className={classes.image} />
                                     <div className="m-2">Python</div>
                                 </div>
                                 <div className={classes.item}>
-                                    <img src="/javascript.png" alt="javascript" className={classes.image} />
+                                    <img src="/javascript.png" alt="Javascript" className={classes.image} />
                                     <div className="m-2">Javascript</div>
                                 </div>
                                 <div className={classes.item}>
-                                    <img src="/typescript.png" alt="javascript" className={classes.image} />
+                                    <img src="/typescript.png" alt="Typescript" className={classes.image} />
                                     <div className="m-2">Typescript</div>
                                 </div>
                                 <div className={classes.item}>
-                                    <img src="/sql.png" alt="javascript" className={classes.image} />
+                                    <img src="/sql.png" alt="SQL" className={classes.image} />
                                     <div className="m-2">SQL</div>
                                 </div>
                             </div>
@@ -50,15 +50,15 @@ const Skills = () => {
                             </div>
                             <div className={classes.body} id="databases">
                                 <div className={classes.item}>
-                                    <img src="/mongo.png" alt="python" className={classes.image} />
+                                    <img src="/mongo.png" alt="MongoDB" className={classes.image} />
                                     <div className="m-2">MongoDB</div>
                                 </div>
                                 <div className={classes.item}>
-                                    <img src="/mysql.png" alt="javascript" className={classes.image} />
+                                    <img src="/mysql.png" alt="MySQL" className={classes.image} />
                                     <div className="m-2">MySQL</div>
                                 </div>
                                 <div className={classes.item}>
-                                    <img src="/redis.png" alt="javascript" className={classes.image} />
+                                    <img src="/redis.png" alt="Redis" className={classes.image} />
                                     <div className="m-2">Redis</div>
                                 </div>
                             </div>
@@ -74,19 +74,19 @@ const Skills = () => {
                             </div>
                             <div className={classes.body} id="back">
                                 <div className={classes.item}>
-                                    <img src="/node.png" alt="javascript" className={classes.image} />
+                                    <img src="/node.png" alt="Node.js" className={classes.image} />
                                     <div className="m-2">Node.js</div>
                                 </div>
                                 <div className={classes.item}>
-                                    <img src="/express.png" alt="javascript" className={classes.image} />
+                                    <img src="/express.png" alt="Express" className={classes.image} />
                                     <div className="m-2">Express.js</div>
                                 </div>
                                 <div className={classes.item}>
-                                    <img src="/graphql.png" alt="javascript" className={classes.image} />
+                                    <img src="/graphql.png" alt="GraphQL" className={classes.image} />
                                     <div className="m-2">GraphQL</div>
                                 </div>
                                 <div className={classes.item}>
-                                    <img src="/github.png" alt="javascript" className={classes.image} />
+                                    <img src="/github.png" alt="GitHub" className={classes.image} />
                                     <div className="m-2">GitHub</div>
                                 </div>
                             </div>
@@ -100,39 +100,39 @@ const Skills = () => {
                             </div>
                             <div className={classes.body} id="front">
                                 <div className={classes.item}>
-                                    <img src="/html.png" alt="javascript" className={classes.image} />
+                                    <img src="/html.png" alt="HTML" className={classes.image} />
                                     <div className="m-2">HTML</div>
                                 </div>
                                 <div className={classes.item}>
-                                    <img src="/css.png" alt="javascript" className={classes.image} />
+                                    <img src="/css.png" alt="CSS" className={classes.image} />
                                     <div className="m-2">CSS</div>
                                 </div>
                                 <div className={classes.item}>
-                                    <img src="/react.png" alt="javascript" className={classes.image} />
+                                    <img src="/react.png" alt="React" className={classes.image} />
                                     <div className="m-2">React.js</div>
                                 </div>
                                 <div className={classes.item}>
-                                    <img src="/redux.png" alt="javascript" className={classes.image} />
+                                    <img src="/redux.png" alt="Redux" className={classes.image} />
                                     <div className="m-2">Redux</div>
                                 </div>
                                 <div className={classes.item}>
-                                    <img src="/next.png" alt="javascript" className={classes.image} />
+                                    <img src="/next.png" alt="Next.js" className={classes.image} />
                                     <div className="m-2">Next.js</div>
                                 </div>
                                 <div className={classes.item}>
-                                    <img src="/firebase.png" alt="javascript" className={classes.image} />
+                                    <img src="/firebase.png" alt="Firebase" className={classes.image} />
                                     <div className="m-2">Firebase</div>
                                 </div>
                                 <div className={classes.item}>
-                                    <img src="/bootstrap.png" alt="javascript" className={classes.image} />
+                                    <img src="/bootstrap.png" alt="Bootstrap" className={classes.image} />
                                     <div className="m-2">Bootstrap</div>
                                 </div>
                                 <div className={classes.item}>
-                                    <img src="/tailwind.png" alt="javascript" className={classes.image} />
+                                    <img src="/tailwind.png" alt="Tailwind" className={classes.image} />
                                     <div className="m-2">Tailwind</div>
                                 </div>
                                 <div className={classes.item}>
-                                    <img src="/vue.png" alt="javascript" className={classes.image} />
+                                    <img src="/vue.png" alt="Vue" className={classes.image} />
                                     <div className="m-2">Vue.js</div>
                                 </div>
                             </div>
