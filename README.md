@@ -2,7 +2,13 @@ This is my portfolio created with [Next.js](https://nextjs.org/) styled with [Ta
 
 ## Getting Started
 
-First, Download this repository and run npm install to install all the dependencies
+First, Download this repository and run
+
+```bash
+npm install
+```
+
+to install all the dependencies
 
 Then, run the development server:
 
