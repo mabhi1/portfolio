@@ -1,0 +1,73 @@
+{
+    "asianmart": {
+        "header": {
+            "image": "/asianmart.png",
+            "heading": "Fullstack MERN application",
+            "description": "An ecommerce application for groceries. Users can order products and submit reviews for products. There is an admin dashboard for managing orders, updating stock and delete any reported reviews",
+            "techstack": {
+                "frontend": ["React", "Bootstrap", "Firebase Authentication"],
+                "backend": ["Node", "GraphQL", "Express", "Stripe payment"],
+                "database": ["MongoDB"]
+            },
+            "links": {
+                "code": "https://github.com/mabhi1/Grocery-E-commerce-Web-Application",
+                "demo": "https://animated-meerkat-2d5d3b.netlify.app/"
+            }
+        },
+        "body": {
+            "keypoints": [
+                "Browse through grocery products and place an order after signing in",
+                "Sign up using your email or through Gmail",
+                "Filter and search for products based on the requirements",
+                "Post reviews and ratings for a product and their reviews will be marked as verified if that product had previously been ordered",
+                "Average of all ratings and the best review among all the reviews are displayed on each product page",
+                "All the orders and reviews of a user are displayed on his or her account page",
+                "A comment can be reported by another user and a user can report a review only once",
+                "Admin is provided with a dashboard listing all the orders, products, and reported reviews",
+                "Admin can change the status of an order to dispatched once the order has been dispatched or completed once it has been delivered",
+                "Admin can add a new product or edit and delete a existing product",
+                "Admin can see all the reported reviews and number of reports per review and delete any if required"
+            ],
+            "problems": ["Implementing Stripe using GraphQL", "State of the application refreshes after redirecting from stripe dashboard"],
+            "solutions": [
+                "Used express to implement Stripe",
+                "Used local storage to store order related data and used it after redirecting from stripe dashboard"
+            ]
+        }
+    },
+    "questionnaire": {
+        "header": {
+            "image": "/questionnaire.png",
+            "heading": "A Node.js application",
+            "description": "A question-and-answer based discussion forum for different communities. Users can create or join a community post questions, answer to other questions, comment on other answers. Users can report other questions and answers.",
+            "techstack": {
+                "frontend": ["Handlebars", "Bootstrap"],
+                "backend": ["Node", "Express"],
+                "database": ["MongoDB"]
+            },
+            "links": {
+                "code": "https://github.com/mabhi1/cs-546-Questionnaire-",
+                "demo": "https://questionnaire-node.herokuapp.com/"
+            }
+        },
+        "body": {
+            "keypoints": [
+                "Log in to post a question for others to answer. The question must be under a community",
+                "Choose an existing community or create a new one for posting a question. Admin of a community is the one who created that community",
+                "A question can also be posted anonymously hiding the poster details",
+                "Browse through all the communitites, all questions and answers under any community on 'all communities' page without logging in",
+                "Subscribe and unsubscribe to a community",
+                "Answer any question in any community",
+                "Upvote, downvote, and report any question or answer in any community",
+                "Comment under any answer of any community",
+                "Admin of a community can see all the reported questions and answers under his community and delete any if he wants to",
+                "Posted questions, posted answers, subscribed communities, and created communities of a user are displayed on the account page"
+            ],
+            "problems": ["Implementing Stripe using GraphQL", "State of the application refreshes after redirecting from stripe dashboard"],
+            "solutions": [
+                "Used express to implement Stripe",
+                "Used local storage to store order related data and used it after redirecting from stripe dashboard"
+            ]
+        }
+    }
+}

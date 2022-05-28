@@ -21,7 +21,7 @@ const Qualifications = () => {
                         className={
                             classes.heading +
                             (selected === "edu"
-                                ? " bg-cyan-700 dark:bg-cyan-900 text-slate-200"
+                                ? " bg-cyan-700 dark:bg-cyan-900 text-slate-50"
                                 : " bg-slate-200 hover:bg-slate-300 dark:bg-slate-800 dark:hover:bg-slate-800")
                         }
                         onClick={() => setSelected("edu")}
@@ -40,7 +40,7 @@ const Qualifications = () => {
                         className={
                             classes.heading +
                             (selected === "work"
-                                ? " bg-cyan-700 dark:bg-cyan-900 text-slate-200"
+                                ? " bg-cyan-700 dark:bg-cyan-900 text-slate-50"
                                 : " bg-slate-200 hover:bg-slate-300 dark:bg-slate-800 dark:hover:bg-slate-800")
                         }
                         onClick={() => setSelected("work")}

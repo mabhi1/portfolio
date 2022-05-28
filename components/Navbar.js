@@ -31,11 +31,11 @@ const Navbar = () => {
         <header
             className={
                 scroll
-                    ? "animate-[heading_1000ms_ease-in-out] z-20 block md:justify-around md:flex md:flex-col md:items-center lg:flex-row w-full bg-slate-50/95 dark:bg-slate-900 text-slate-900 dark:text-slate-50 font-['Helvetica'] text-base fixed md:sticky top-0 tracking-wide shadow dark:shadow-slate-700 transition-shadow duration-300 ease-in-out"
-                    : "animate-[heading_1000ms_ease-in-out] z-20 block md:justify-around md:flex md:flex-col md:items-center lg:flex-row w-full bg-slate-50/95 dark:bg-slate-900 text-slate-900 dark:text-slate-50 font-['Helvetica'] text-base fixed md:sticky top-0 tracking-wide transition-shadow duration-300 ease-in-out"
+                    ? "animate-[heading_1000ms_ease-in-out] z-30 block md:justify-around md:flex md:flex-col md:items-center lg:flex-row w-full bg-slate-50/95 dark:bg-slate-900 text-slate-900 dark:text-slate-50 font-['Helvetica'] text-base fixed md:sticky top-0 tracking-wide shadow dark:shadow-slate-700 transition-shadow duration-300 ease-in-out"
+                    : "animate-[heading_1000ms_ease-in-out] z-30 block md:justify-around md:flex md:flex-col md:items-center lg:flex-row w-full bg-slate-50/95 dark:bg-slate-900 text-slate-900 dark:text-slate-50 font-['Helvetica'] text-base fixed md:sticky top-0 tracking-wide transition-shadow duration-300 ease-in-out"
             }
         >
-            <div className="relative z-10 text-xl p-5 flex w-full md:w-auto justify-between ">
+            <div className="relative z-30 text-xl p-5 flex w-full md:w-auto justify-between ">
                 Portfolio
                 <div className="flex md:hidden">
                     <div>

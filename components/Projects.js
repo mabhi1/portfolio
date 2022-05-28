@@ -33,7 +33,7 @@ const Projects = () => {
                     </div>
                     <h1 className={classes.header}>Questionnaire</h1>
                     <h2 className={classes.description}>
-                        <MdOutlineSubtitles className="m-auto" />A question and answer portal to find information
+                        <MdOutlineSubtitles className="m-auto" />A question-and-answer based discussion forum
                     </h2>
                     <div className={classes.body}>
                         <a href="https://github.com/mabhi1/cs-546-Questionnaire-" className={classes.links} target="_blank" rel="noopener noreferrer">
@@ -47,7 +47,7 @@ const Projects = () => {
                     </div>
                     <div className={classes.footer}>
                         <button onClick={() => router.push("/questionnaire")} className={classes.button}>
-                            Read More
+                            Details
                             <AiFillCaretRight className="m-1 mr-0 group-hover:translate-x-1 transition duration-300" />
                         </button>
                     </div>
@@ -78,7 +78,7 @@ const Projects = () => {
                     </div>
                     <div className={classes.footer}>
                         <button onClick={() => router.push("/asianmart")} className={classes.button}>
-                            Read More
+                            Details
                             <AiFillCaretRight className="m-1 mr-0 group-hover:translate-x-1 transition duration-300" />
                         </button>
                     </div>

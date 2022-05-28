@@ -1,6 +1,8 @@
 import React from "react";
 import { MdOutlineCopyright } from "react-icons/md";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
+import Image from "next/image";
+import Link from "next/link";
 
 const classes = {
     section: "p-4 w-auto md:m-auto text-left md:justify-evenly",
@@ -8,7 +10,10 @@ const classes = {
 };
 const Footer = () => {
     return (
-        <div className="bg-cyan-700 dark:bg-cyan-800 text-slate-50">
+        <div className="bg-cyan-700 dark:bg-cyan-800 relative text-slate-50">
+            <div className="absolute left-[12rem] -top-[5rem] lg:left-96 lg:-top-20">
+                <Image src="/problem.png" width="150" height="150" />
+            </div>
             <div className="md:flex min-h-[15vh] lg:min-h-[25vh] justify-between font-['Helvetica'] p-4 md:p-0">
                 <div className={classes.section + " pl-6"}>
                     <h3 className="text-lg">Abhishek Mishra</h3>
@@ -16,13 +21,19 @@ const Footer = () => {
                 </div>
                 <div className={"flex " + classes.section}>
                     <div className={classes.item}>
-                        <a href="#skills">Skills</a>
+                        <Link href="/#skills" scroll={false}>
+                            <a>Skills</a>
+                        </Link>
                     </div>
                     <div className={classes.item}>
-                        <a href="#qualification">Qualification</a>
+                        <Link href="/#qualification" scroll={false}>
+                            <a>Qualification</a>
+                        </Link>
                     </div>
                     <div className={classes.item}>
-                        <a href="#projects">Projects</a>
+                        <Link href="/#projects" scroll={false}>
+                            <a>Projects</a>
+                        </Link>
                     </div>
                 </div>
                 <div className={"flex text-2xl " + classes.section}>
