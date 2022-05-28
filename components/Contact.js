@@ -36,7 +36,7 @@ const Contact = () => {
                 alert.classList.add("hidden");
                 alert.classList.remove("bg-red-500");
                 alert.classList.remove("shadow-red-500/50");
-            }, 1500);
+            }, 3000);
         } else {
             emailjs.sendForm("service_5uh2m5o", "template_3xeptuc", form.current, "IvWTeDQIgeJ6LRxbB").then(
                 (result) => {
@@ -60,7 +60,7 @@ const Contact = () => {
                 alert.classList.add("hidden");
                 alert.classList.remove("bg-emerald-500");
                 alert.classList.remove("shadow-emerald-500/50");
-            }, 1500);
+            }, 3000);
         }
     };
     return (
