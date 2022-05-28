@@ -63,11 +63,8 @@
                 "Admin of a community can see all the reported questions and answers under his community and delete any if he wants to",
                 "Posted questions, posted answers, subscribed communities, and created communities of a user are displayed on the account page"
             ],
-            "problems": ["Implementing Stripe using GraphQL", "State of the application refreshes after redirecting from stripe dashboard"],
-            "solutions": [
-                "Used express to implement Stripe",
-                "Used local storage to store order related data and used it after redirecting from stripe dashboard"
-            ]
+            "problems": ["Getting post request when editing or deleting a question, answer, or community "],
+            "solutions": ["Used middlewares to change post request to put or delete depending on the type of request"]
         }
     }
 }
