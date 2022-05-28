@@ -18,7 +18,7 @@ const Body = ({ data }) => {
                 </h1>
                 <ul className={classes.list}>
                     {data.keypoints.map((keypoint) => {
-                        return <li>{keypoint}</li>;
+                        return <li key={keypoint}>{keypoint}</li>;
                     })}
                 </ul>
             </div>
@@ -30,7 +30,7 @@ const Body = ({ data }) => {
                     </h1>
                     <ul className={classes.list}>
                         {data.problems.map((problem) => {
-                            return <li>{problem}</li>;
+                            return <li key={problem}>{problem}</li>;
                         })}
                     </ul>
                 </div>
@@ -40,8 +40,8 @@ const Body = ({ data }) => {
                         Solutions
                     </h1>
                     <ul className={classes.list}>
-                        {data.solutions.map((problem) => {
-                            return <li>{problem}</li>;
+                        {data.solutions.map((solution) => {
+                            return <li key={solution}>{solution}</li>;
                         })}
                     </ul>
                 </div>
