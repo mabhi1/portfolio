@@ -81,7 +81,7 @@ const Contact = () => {
                         <MdOutlineMail className={classes.icons} />
                         <div>
                             <h1 className={classes.heading}>Email</h1>
-                            <h2 className={classes.description}>mishraabhishek226@gmail.com</h2>
+                            <h2 className={classes.description}>amishr1@stevens.edu</h2>
                         </div>
                     </div>
                     <div className={classes.item}>
