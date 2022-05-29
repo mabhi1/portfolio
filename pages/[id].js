@@ -21,8 +21,8 @@ const Project = () => {
     useEffect(() => {
         router.beforePopState(({ url, as, options }) => {
             if (url.toString() !== "/[id]") {
-                location.assign("/#projects");
-                location.reload();
+                location.replace("/#projects");
+                router.reload();
             } else return true;
         });
     });

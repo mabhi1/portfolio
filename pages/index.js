@@ -19,12 +19,6 @@ export default function Home() {
         window?.addEventListener("scroll", handleScroll);
         return () => window?.removeEventListener("scroll", handleScroll);
     });
-    useEffect(() => {
-        router.beforePopState(({ url, as, options }) => {
-            console.log(url);
-            return true;
-        });
-    });
     return (
         <>
             <Head>
