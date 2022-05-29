@@ -62,7 +62,7 @@ const Qualifications = () => {
                             <div className="flex items-center mb-2">
                                 <Image src="/aktu.png" height={50} width={50} className="rounded-full" />
                                 <div className="m-2">
-                                    <div className="text-base text-slate-900 dark:text-slate-50">Bachelor&#39;s in computer Science</div>
+                                    <div className="text-base text-slate-900 dark:text-slate-50">Bachelor&#39;s in Computer Science</div>
                                     <h1 className="">AKTU, India</h1>
                                 </div>
                             </div>
@@ -79,7 +79,7 @@ const Qualifications = () => {
                             <div className="flex items-center mb-2">
                                 <Image src="/stevens.gif" height={50} width={50} className="rounded-full" />
                                 <div className="m-2">
-                                    <div className="text-base text-slate-900 dark:text-slate-50">Master&#39;s in computer Science</div>
+                                    <div className="text-base text-slate-900 dark:text-slate-50">Master&#39;s in Computer Science</div>
                                     <h1 className="">Stevens Institute of Technology, United States</h1>
                                 </div>
                             </div>

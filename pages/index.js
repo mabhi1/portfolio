@@ -28,7 +28,7 @@ export default function Home() {
             <div className="selection:bg-cyan-300 selection:text-cyan-900 dark:bg-slate-900 font-serif text-slate-900 dark:text-slate-50 text-base divide-y-2 dark:divide-slate-800">
                 {position > 350 ? (
                     <div className="group rounded-full">
-                        <span className="animate-[linkDescription_250ms_ease-in-out] hidden lg:group-hover:inline dark:group-hover:opacity-100 text-base -translate-y-9 bg-cyan-900/80 fixed right-7 bottom-20 text-cyan-50 rounded-full p-1 px-2">
+                        <span className="z-20 animate-[linkDescription_250ms_ease-in-out] hidden lg:group-hover:inline dark:group-hover:opacity-100 text-base -translate-y-9 bg-cyan-900/80 fixed right-7 bottom-20 text-cyan-50 rounded-full p-1 px-2">
                             Scroll to top
                         </span>
                         <AiOutlineArrowUp
