@@ -18,6 +18,14 @@ const Project = () => {
     });
     const router = useRouter();
     const { id } = router.query;
+    useEffect(() => {
+        router.beforePopState(({ url, as, options }) => {
+            if (url.toString() !== "/[id]") {
+                location.assign("/#projects");
+                location.reload();
+            } else return true;
+        });
+    });
     if (id && (id == "asianmart" || id == "questionnaire")) {
         return (
             <div className="font-['Helvetica'] text-base text-slate-900 dark:text-slate-50 divide-y-2 dark:divide-slate-800">

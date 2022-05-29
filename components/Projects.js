@@ -47,10 +47,12 @@ const Projects = () => {
                         </a>
                     </div>
                     <div className={classes.footer}>
-                        <a href="/questionnaire" className={classes.button}>
-                            Details
-                            <AiFillCaretRight className="m-1 mr-0 group-hover:translate-x-1 transition duration-300" />
-                        </a>
+                        <Link href="/questionnaire">
+                            <a className={classes.button}>
+                                Details
+                                <AiFillCaretRight className="m-1 mr-0 group-hover:translate-x-1 transition duration-300" />
+                            </a>
+                        </Link>
                     </div>
                 </div>
                 <div className={classes.cards}>
@@ -78,10 +80,12 @@ const Projects = () => {
                         </a>
                     </div>
                     <div className={classes.footer}>
-                        <a href={"/asianmart"} className={classes.button}>
-                            Details
-                            <AiFillCaretRight className="m-1 mr-0 group-hover:translate-x-1 transition duration-300" />
-                        </a>
+                        <Link href="/asianmart">
+                            <a className={classes.button}>
+                                Details
+                                <AiFillCaretRight className="m-1 mr-0 group-hover:translate-x-1 transition duration-300" />
+                            </a>
+                        </Link>
                     </div>
                 </div>
             </div>

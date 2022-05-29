@@ -6,9 +6,11 @@ import Qualifications from "../components/Qualifications";
 import Skills from "../components/Skills";
 import { AiOutlineArrowUp } from "react-icons/ai";
 import { useEffect, useState } from "react";
+import { useRouter } from "next/router";
 import Footer from "../components/Footer";
 
 export default function Home() {
+    const router = useRouter();
     const [position, setPosition] = useState(null);
     const handleScroll = () => {
         setPosition(window?.pageYOffset);
@@ -16,6 +18,12 @@ export default function Home() {
     useEffect(() => {
         window?.addEventListener("scroll", handleScroll);
         return () => window?.removeEventListener("scroll", handleScroll);
+    });
+    useEffect(() => {
+        router.beforePopState(({ url, as, options }) => {
+            console.log(url);
+            return true;
+        });
     });
     return (
         <>
