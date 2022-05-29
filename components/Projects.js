@@ -5,6 +5,7 @@ import { BsGithub } from "react-icons/bs";
 import { FiExternalLink } from "react-icons/fi";
 import { AiFillCaretRight } from "react-icons/ai";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 const classes = {
     cards: "w-[45%] md:w-60 m-2 md:m-8 lg:hover:scale-105 shadow-lg dark:shadow dark:shadow-slate-600 dark:lg:hover:shadow-slate-600 dark:lg:hover:shadow-lg lg:hover:shadow-2xl transition duration-200 rounded-md h-[22rem]",
@@ -46,10 +47,10 @@ const Projects = () => {
                         </a>
                     </div>
                     <div className={classes.footer}>
-                        <button onClick={() => router.push("/questionnaire")} className={classes.button}>
+                        <a href="/questionnaire" className={classes.button}>
                             Details
                             <AiFillCaretRight className="m-1 mr-0 group-hover:translate-x-1 transition duration-300" />
-                        </button>
+                        </a>
                     </div>
                 </div>
                 <div className={classes.cards}>
@@ -77,10 +78,10 @@ const Projects = () => {
                         </a>
                     </div>
                     <div className={classes.footer}>
-                        <button onClick={() => router.push("/asianmart")} className={classes.button}>
+                        <a href={"/asianmart"} className={classes.button}>
                             Details
                             <AiFillCaretRight className="m-1 mr-0 group-hover:translate-x-1 transition duration-300" />
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
