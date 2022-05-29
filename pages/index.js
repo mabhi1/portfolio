@@ -20,7 +20,7 @@ export default function Home() {
         return () => window?.removeEventListener("scroll", handleScroll);
     });
     useEffect(() => {
-        if (window && window.location.hash === "/#projects") router.reload();
+        if (window && window.location.hash === "/#projects") router.reload(window.location.pathname);
     }, []);
     return (
         <>
