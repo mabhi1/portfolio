@@ -8,7 +8,6 @@ const classes = {
     section: "my-5",
 };
 const Body = ({ data }) => {
-    console.log(data);
     return (
         <div className="lg:min-h-[110vh] px-10 md:px-14 lg:px-24 mt-20 pt-20 pb-40 lg:flex w-full justify-around tracking-wide leading-relaxed">
             <div className="lg:w-[60%] lg:my-5 lg:mr-14">

@@ -11,12 +11,20 @@ const Project = () => {
     const handleScroll = () => {
         setPosition(window?.pageYOffset);
     };
+
     useEffect(() => {
         window?.addEventListener("scroll", handleScroll);
         return () => window?.removeEventListener("scroll", handleScroll);
     });
     const router = useRouter();
     const { id } = router.query;
+    useEffect(() => {
+        router.beforePopState(({ url, as, options }) => {
+            console.log(url);
+            if (url.toString() !== "/[id]") router.replace("/#projects");
+            else return true;
+        });
+    }, [id]);
     if (id && (id == "asianmart" || id == "questionnaire")) {
         return (
             <div className="font-['Helvetica'] text-base text-slate-900 dark:text-slate-50 divide-y-2 dark:divide-slate-800">
