@@ -32,7 +32,7 @@ const Footer = () => {
                     </div>
                     <div className={classes.item}>
                         <Link href="/#projects" scroll={false}>
-                            <a>Projects</a>
+                            <a id="projects">Projects</a>
                         </Link>
                     </div>
                 </div>

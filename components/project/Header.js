@@ -18,6 +18,7 @@ const Header = ({ data }) => {
                     width="1090"
                     height="509"
                     className="rounded lg:hover:scale-[101%] transition duration-200"
+                    priority
                 />
             </div>
             <div className="lg:w-[45%] m-3 px-6 text-center relative tracking-wide leading-relaxed">

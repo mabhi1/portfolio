@@ -19,9 +19,6 @@ export default function Home() {
         window?.addEventListener("scroll", handleScroll);
         return () => window?.removeEventListener("scroll", handleScroll);
     });
-    useEffect(() => {
-        if (window && window.location.hash === "/#projects") router.reload(window.location.pathname);
-    }, []);
     return (
         <>
             <Head>

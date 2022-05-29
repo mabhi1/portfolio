@@ -30,7 +30,7 @@ const Projects = () => {
             <div className="text-slate-700 dark:text-slate-50 font-['Helvetica'] text-center flex w-full px-5 flex-wrap justify-center">
                 <div className={classes.cards}>
                     <div>
-                        <Image src="/questionnaire.png" className={classes.image} width={300} height={140} />
+                        <Image src="/questionnaire.png" className={classes.image} width={300} height={140} priority />
                     </div>
                     <h1 className={classes.header}>Questionnaire</h1>
                     <h2 className={classes.description}>
@@ -57,7 +57,7 @@ const Projects = () => {
                 </div>
                 <div className={classes.cards}>
                     <div>
-                        <Image src="/asianmart.png" className={classes.image} width={300} height={140} />
+                        <Image src="/asianmart.png" className={classes.image} width={300} height={140} priority />
                     </div>
                     <h1 className={classes.header}>Asian Mart</h1>
                     <h2 className={classes.description}>
