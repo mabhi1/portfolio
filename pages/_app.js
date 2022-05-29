@@ -4,7 +4,7 @@ import smoothscroll from "smoothscroll-polyfill";
 
 function MyApp({ Component, pageProps }) {
     // kick off the polyfill!
-    smoothscroll.polyfill();
+    if (window) smoothscroll.polyfill();
     return (
         <div className="bg-slate-50 dark:bg-slate-900">
             <Navbar />
