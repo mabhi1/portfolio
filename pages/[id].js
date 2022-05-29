@@ -22,7 +22,9 @@ const Project = () => {
         router.beforePopState(({ url, as, options }) => {
             if (url.toString() !== "/[id]") {
                 location.replace("/#projects");
-                router.reload();
+                setTimeout(() => {
+                    router.reload();
+                }, 1000);
             } else return true;
         });
     });
