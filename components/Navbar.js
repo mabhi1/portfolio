@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { MdLightMode } from "react-icons/md";
 import { FaMoon } from "react-icons/fa";
 import Link from "next/link";
@@ -27,6 +27,10 @@ const Navbar = () => {
         menu.classList.add("opacity-0");
         menu.classList.add("-mt-[15.5rem]");
     };
+    useEffect(() => {
+        document.documentElement.className = window?.localStorage.getItem("mode");
+        setMode(window?.localStorage.getItem("mode"));
+    });
     return (
         <header
             className={
@@ -43,16 +47,16 @@ const Navbar = () => {
                             <MdLightMode
                                 className="w-6 m-1 h-auto cursor-pointer"
                                 onClick={() => {
-                                    document.documentElement.className = "";
                                     setMode("");
+                                    window?.localStorage.setItem("mode", "");
                                 }}
                             />
                         ) : (
                             <FaMoon
                                 className="w-5 m-1 h-auto cursor-pointer"
                                 onClick={() => {
-                                    document.documentElement.className = "dark";
                                     setMode("dark");
+                                    window?.localStorage.setItem("mode", "dark");
                                 }}
                             />
                         )}
@@ -129,16 +133,16 @@ const Navbar = () => {
                         <MdLightMode
                             className="w-8 h-auto cursor-pointer"
                             onClick={() => {
-                                document.documentElement.className = "";
                                 setMode("");
+                                window?.localStorage.setItem("mode", "");
                             }}
                         />
                     ) : (
                         <FaMoon
                             className="w-7 h-auto cursor-pointer"
                             onClick={() => {
-                                document.documentElement.className = "dark";
                                 setMode("dark");
+                                window?.localStorage.setItem("mode", "dark");
                             }}
                         />
                     )}
