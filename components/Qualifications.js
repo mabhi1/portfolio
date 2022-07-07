@@ -108,7 +108,7 @@ const Qualifications = () => {
                                 <FaBookReader className="m-1 mr-3" />
                                 <div className="w-fit">
                                     <ul>
-                                        <li>Developed SPA’s and front-end components using React.js and bootstrap</li>
+                                        <li>Developed SPA and front-end components using React.js and bootstrap</li>
                                         <li>Translated designs and wireframes into high-quality code</li>
                                         <li>Optimized components for maximum performance across a variety of devices and browsers</li>
                                     </ul>
