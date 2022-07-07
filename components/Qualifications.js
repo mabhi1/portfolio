@@ -98,7 +98,7 @@ const Qualifications = () => {
                     <div id="work-section" className={classes.section + (selected === "edu" ? " hidden" : " block")}>
                         <div>
                             <div className="flex items-center mb-2">
-                                <Image src="/Compitek.png" height={50} width={50} className="rounded-full bg-slate-50" />
+                                <Image src="/compitek.png" height={50} width={50} className="rounded-full bg-slate-50" />
                                 <div className="m-2">
                                     <div className="text-base text-slate-900 dark:text-slate-50">Web Developer</div>
                                     <h1 className="">Compitek IT services, India</h1>
