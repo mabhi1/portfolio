@@ -11,7 +11,7 @@ const classes = {
 const Qualifications = () => {
     const [selected, setSelected] = useState("edu");
     return (
-        <div id="qualification" className="min-h-[90vh] md:min-h-[78vh] lg:min-h-screen ">
+        <div id="qualification" className="min-h-[100vh] md:min-h-[78vh] lg:min-h-screen ">
             <div className="pt-24 md:pt-40 lg:pt-28 text-center mx-5 md:mx-20 lg:mx-40">
                 <div className="text-2xl mb-8 md:mb-24">My Qualifications</div>
             </div>
@@ -98,6 +98,29 @@ const Qualifications = () => {
                     <div id="work-section" className={classes.section + (selected === "edu" ? " hidden" : " block")}>
                         <div>
                             <div className="flex items-center mb-2">
+                                <Image src="/Compitek.png" height={50} width={50} className="rounded-full bg-slate-50" />
+                                <div className="m-2">
+                                    <div className="text-base text-slate-900 dark:text-slate-50">Web Developer</div>
+                                    <h1 className="">Compitek IT services, India</h1>
+                                </div>
+                            </div>
+                            <div className="flex mb-2">
+                                <FaBookReader className="m-1 mr-3" />
+                                <div className="w-fit">
+                                    <ul>
+                                        <li>Developed SPA’s and front-end components using React.js and bootstrap</li>
+                                        <li>Translated designs and wireframes into high-quality code</li>
+                                        <li>Optimized components for maximum performance across a variety of devices and browsers</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="flex">
+                                <FaRegCalendarAlt className="m-1 mr-3" /> 2019 - 2020
+                            </div>
+                        </div>
+                        <span className="w-[100%] min-h-[1px] my-6 bg-slate-300 dark:bg-slate-800 block"></span>
+                        <div>
+                            <div className="flex items-center mb-2">
                                 <Image src="/pwc.png" height={50} width={50} className="rounded-full bg-slate-50" />
                                 <div className="m-2">
                                     <div className="text-base text-slate-900 dark:text-slate-50">Data Analyst</div>
@@ -106,7 +129,13 @@ const Qualifications = () => {
                             </div>
                             <div className="flex mb-2">
                                 <FaBookReader className="m-1 mr-3" />
-                                <div className="w-fit">Load Monitoring Using Informatica PowerCentre using SQL and RDBMS concepts</div>
+                                <div className="w-fit">
+                                    <ul>
+                                        <li>Analyzed Server load using Informatica PowerCenter tool</li>
+                                        <li>Performed testing and debugging using SQL</li>
+                                        <li>Enhanced efficiency by building scripts automating manually handled jobs</li>
+                                    </ul>
+                                </div>
                             </div>
                             <div className="flex">
                                 <FaRegCalendarAlt className="m-1 mr-3" /> 2018 - 2019

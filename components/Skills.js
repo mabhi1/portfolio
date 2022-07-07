@@ -44,30 +44,6 @@ const Skills = () => {
                         <div className={classes.container}>
                             <div className={classes.header}>
                                 <div className="flex">
-                                    <BsCloud className="m-1 mr-3" />
-                                    Databases
-                                </div>
-                            </div>
-                            <div className={classes.body} id="databases">
-                                <div className={classes.item}>
-                                    <img src="/mongo.png" alt="MongoDB" className={classes.image} />
-                                    <div className="m-2">MongoDB</div>
-                                </div>
-                                <div className={classes.item}>
-                                    <img src="/mysql.png" alt="MySQL" className={classes.image} />
-                                    <div className="m-2">MySQL</div>
-                                </div>
-                                <div className={classes.item}>
-                                    <img src="/redis.png" alt="Redis" className={classes.image} />
-                                    <div className="m-2">Redis</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex items-center md:w-1/2 flex-wrap flex-col">
-                        <div className={classes.container}>
-                            <div className={classes.header}>
-                                <div className="flex">
                                     <BsHddNetwork className="m-1 mr-3" />
                                     Back End
                                 </div>
@@ -88,6 +64,34 @@ const Skills = () => {
                                 <div className={classes.item}>
                                     <img src="/github.png" alt="GitHub" className={classes.image} />
                                     <div className="m-2">GitHub</div>
+                                </div>
+                                <div className={classes.item}>
+                                    <img src="/socketio.png" alt="Socket.io" className={classes.image} />
+                                    <div className="m-2">Socket.io</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flex items-center md:w-1/2 flex-wrap flex-col">
+                        <div className={classes.container}>
+                            <div className={classes.header}>
+                                <div className="flex">
+                                    <BsCloud className="m-1 mr-3" />
+                                    Databases
+                                </div>
+                            </div>
+                            <div className={classes.body} id="databases">
+                                <div className={classes.item}>
+                                    <img src="/mongo.png" alt="MongoDB" className={classes.image} />
+                                    <div className="m-2">MongoDB</div>
+                                </div>
+                                <div className={classes.item}>
+                                    <img src="/mysql.png" alt="MySQL" className={classes.image} />
+                                    <div className="m-2">MySQL</div>
+                                </div>
+                                <div className={classes.item}>
+                                    <img src="/redis.png" alt="Redis" className={classes.image} />
+                                    <div className="m-2">Redis</div>
                                 </div>
                             </div>
                         </div>
