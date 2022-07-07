@@ -11,7 +11,7 @@ const classes = {
 const Qualifications = () => {
     const [selected, setSelected] = useState("edu");
     return (
-        <div id="qualification" className="min-h-[100vh] md:min-h-[78vh] lg:min-h-screen ">
+        <div id="qualification" className="min-h-[100vh] md:min-h-[78vh] lg:min-h-screen pb-20 ">
             <div className="pt-24 md:pt-40 lg:pt-28 text-center mx-5 md:mx-20 lg:mx-40">
                 <div className="text-2xl mb-8 md:mb-24">My Qualifications</div>
             </div>
