@@ -108,9 +108,9 @@ const Qualifications = () => {
                                 <FaBookReader className="m-1 mr-3" />
                                 <div className="w-fit">
                                     <ul>
-                                        <li>Designed and developed a full-stack CRM using MERN stack</li>
-                                        <li>Translated designs and wireframes into high-quality code</li>
-                                        <li>Optimized components for maximum performance across a variety of devices and browsers</li>
+                                        <li>Developed a full-stack CRM leveraging MERN stack in collaboration with CEO</li>
+                                        <li>Translated designs and wireframes into high-quality code increasing efficiency by 10%</li>
+                                        <li> Optimized components for maximum performance across 99% of devices and browsers</li>
                                     </ul>
                                 </div>
                             </div>
@@ -131,9 +131,9 @@ const Qualifications = () => {
                                 <FaBookReader className="m-1 mr-3" />
                                 <div className="w-fit">
                                     <ul>
-                                        <li>Analyzed Server load using Informatica PowerCenter tool</li>
-                                        <li>Performed testing and debugging using SQL</li>
-                                        <li>Enhanced efficiency by building scripts automating manually handled jobs</li>
+                                        <li>Analyzed server load in a team of 2 using Informatica PowerCenter tool</li>
+                                        <li> Performed database testing and debugging using SQL to prevent inconsistencies</li>
+                                        <li>Enhanced efficiency by 10% by building scripts automating manually handled jobs</li>
                                     </ul>
                                 </div>
                             </div>
