@@ -78,8 +78,8 @@
                 "database": ["MongoDB"]
             },
             "links": {
-                "code": "https://github.com/mabhi1/cs-546-Questionnaire-",
-                "demo": "https://questionnaire-node.herokuapp.com/"
+                "code": "https://github.com/mabhi1/quiz",
+                "demo": "https://quizapp-node.herokuapp.com/"
             }
         },
         "body": {
