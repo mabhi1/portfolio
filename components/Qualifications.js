@@ -98,6 +98,32 @@ const Qualifications = () => {
                     <div id="work-section" className={classes.section + (selected === "edu" ? " hidden" : " block")}>
                         <div>
                             <div className="flex items-center mb-2">
+                                <Image src="/stevens.gif" height={50} width={50} className="rounded-full bg-slate-50" />
+                                <div className="m-2">
+                                    <div className="text-base text-slate-900 dark:text-slate-50">Teaching Assistant</div>
+                                    <h1 className="">Stevens Institute of Technology, United States</h1>
+                                </div>
+                            </div>
+                            <div className="flex mb-2">
+                                <FaBookReader className="m-1 mr-3" />
+                                <div className="w-fit">
+                                    <ul>
+                                        <li>
+                                            Hold weekly session hours to help students with doubts regarding assignments or any topic related to
+                                            course
+                                        </li>
+                                        <li>Grading homework and exam papers of graduate level course Algorithms CS-590</li>
+                                        <li>Also responsible for creating questions for assignments, and exams</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="flex">
+                                <FaRegCalendarAlt className="m-1 mr-3" /> 2022 - 2022
+                            </div>
+                        </div>
+                        <span className="w-[100%] min-h-[1px] my-6 bg-slate-300 dark:bg-slate-800 block"></span>
+                        <div>
+                            <div className="flex items-center mb-2">
                                 <Image src="/compitek.png" height={50} width={50} className="rounded-full bg-slate-50" />
                                 <div className="m-2">
                                     <div className="text-base text-slate-900 dark:text-slate-50">Web Developer</div>
@@ -110,7 +136,7 @@ const Qualifications = () => {
                                     <ul>
                                         <li>Developed a full-stack CRM leveraging MERN stack in collaboration with CEO</li>
                                         <li>Translated designs and wireframes into high-quality code increasing efficiency by 10%</li>
-                                        <li> Optimized components for maximum performance across 99% of devices and browsers</li>
+                                        <li>Optimized components for maximum performance across 99% of devices and browsers</li>
                                     </ul>
                                 </div>
                             </div>
@@ -132,7 +158,7 @@ const Qualifications = () => {
                                 <div className="w-fit">
                                     <ul>
                                         <li>Analyzed server load in a team of 2 using Informatica PowerCenter tool</li>
-                                        <li> Performed database testing and debugging using SQL to prevent inconsistencies</li>
+                                        <li>Performed database testing and debugging using SQL to prevent inconsistencies</li>
                                         <li>Enhanced efficiency by 10% by building scripts automating manually handled jobs</li>
                                     </ul>
                                 </div>

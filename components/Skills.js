@@ -69,6 +69,10 @@ const Skills = () => {
                                     <img src="/socketio.png" alt="Socket.io" className={classes.image} />
                                     <div className="m-2">Socket.io</div>
                                 </div>
+                                <div className={classes.item}>
+                                    <img src="/django.png" alt="django" className={classes.image} />
+                                    <div className="m-2">Django</div>
+                                </div>
                             </div>
                         </div>
                     </div>

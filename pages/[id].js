@@ -26,7 +26,7 @@ const Project = () => {
             } else return true;
         });
     });
-    if (id && (id == "asianmart" || id == "questionnaire")) {
+    if (id && (id == "asianmart" || id == "questionnaire" || id == "quiz")) {
         return (
             <div className="font-['Helvetica'] text-base text-slate-900 dark:text-slate-50 divide-y-2 dark:divide-slate-800">
                 {position > 350 ? (

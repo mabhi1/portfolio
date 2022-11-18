@@ -88,6 +88,34 @@ const Projects = () => {
                         </Link>
                     </div>
                 </div>
+                <div className={classes.cards}>
+                    <div>
+                        <Image src="/quiz.png" className={classes.image} width={300} height={140} priority />
+                    </div>
+                    <h1 className={classes.header}>Quiz</h1>
+                    <h2 className={classes.description}>
+                        <MdOutlineSubtitles className="m-auto" />
+                        An online quiz portal
+                    </h2>
+                    <div className={classes.body}>
+                        <a href="https://github.com/mabhi1/quiz" className={classes.links} target="_blank" rel="noopener noreferrer">
+                            <span className={classes.linkDescription}>Code</span>
+                            <BsGithub />
+                        </a>
+                        <a href="https://quizapp-node.herokuapp.com/" className={classes.links} target="_blank" rel="noopener noreferrer">
+                            <span className={classes.linkDescription}>Demo</span>
+                            <FiExternalLink />
+                        </a>
+                    </div>
+                    <div className={classes.footer}>
+                        <Link href="/quiz">
+                            <a className={classes.button}>
+                                Details
+                                <AiFillCaretRight className="m-1 mr-0 group-hover:translate-x-1 transition duration-300" />
+                            </a>
+                        </Link>
+                    </div>
+                </div>
             </div>
         </div>
     );

@@ -2,7 +2,7 @@
     "asianmart": {
         "header": {
             "image": "/asianmart.png",
-            "heading": "Fullstack MERN application",
+            "heading": "Fullstack MERN application with GraphQL",
             "description": "An ecommerce application for groceries. Users can order products and submit reviews for products. There is an admin dashboard for managing orders, updating stock and delete any reported reviews",
             "techstack": {
                 "frontend": ["React", "Bootstrap", "Firebase Authentication"],
@@ -65,6 +65,34 @@
             ],
             "problems": ["Getting post request when editing or deleting a question, answer, or community "],
             "solutions": ["Used middlewares to change post request to put or delete depending on the type of request"]
+        }
+    },
+    "quiz": {
+        "header": {
+            "image": "/quiz.png",
+            "heading": "Fullstack MERN application",
+            "description": "An online quiz portal. Users can take quizzes on various programming languages and databases. They can see their progress on their profile page.",
+            "techstack": {
+                "frontend": ["React", "Tailwindcss"],
+                "backend": ["Node", "Express"],
+                "database": ["MongoDB"]
+            },
+            "links": {
+                "code": "https://github.com/mabhi1/cs-546-Questionnaire-",
+                "demo": "https://questionnaire-node.herokuapp.com/"
+            }
+        },
+        "body": {
+            "keypoints": [
+                "Start a quiz and submit before the timer turns 0. It can be started only when a user is logged in",
+                "Answer all the question within the given time or it will be automatically submitted",
+                "A user is allowed to attempt a quiz only once per day. A quiz will be locked for 24 hours after it has been submitted",
+                "A user can see all the quizzes attempted so far and their scores on the profile page",
+                "Only admin can edit, delete or add a quiz. Admin dashboard can be accessed by logging as admin",
+                "Admin can delete a user through the admin dashboard"
+            ],
+            "problems": ["User can visit the password reset link multiple times even after resetting the password"],
+            "solutions": ["Stored all the password reset links and deleted it after it has been visited once"]
         }
     }
 }
