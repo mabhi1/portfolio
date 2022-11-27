@@ -94,5 +94,32 @@
             "problems": ["User can visit the password reset link multiple times even after resetting the password"],
             "solutions": ["Stored all the password reset links and deleted it after it has been visited once"]
         }
+    },
+    "mysou": {
+        "header": {
+            "image": "/mysou.png",
+            "heading": "Fullstack Django application",
+            "description": "MySOU is a mobile responsive full stack web application developed for admitted college students where they would be able to create, view and edit their profile, access resources and job opportunities, register for events, request documents, and enroll in student clubs.",
+            "techstack": {
+                "frontend": ["DHTML", "CSS", "JavaScript"],
+                "backend": ["Django", "Stripe payment"],
+                "database": ["PostgreSQL"]
+            },
+            "links": {
+                "code": "https://github.com/mabhi1/mysou-heroku",
+                "demo": "https://mysou-django.herokuapp.com/app"
+            }
+        },
+        "body": {
+            "keypoints": [
+                "A student can login and have access to all the resources of the college like Grades, Events, Clubs etc.",
+                "Student can view all the notices, course material and any homeworks on the portal",
+                "Student can also request for completion certificate, view academic calender and pay fee using the portal",
+                "Admin has the responsibility to add any new resources to the portal or edit any existing one",
+                "Admin also adds a student after his/her admission. He can also delete or update amy existing one"
+            ],
+            "problems": ["Difficulty in accepting payments from students"],
+            "solutions": ["Implemented stripe to accept payments"]
+        }
     }
 }

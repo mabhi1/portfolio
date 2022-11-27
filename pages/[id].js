@@ -7,6 +7,7 @@ import Body from "../components/project/Body";
 const projects = require("../components/project/projects.json");
 
 const Project = () => {
+    const projectList = ["asianmart", "questionnaire", "quiz", "mysou"];
     const [position, setPosition] = useState(null);
     const handleScroll = () => {
         setPosition(window?.pageYOffset);
@@ -26,7 +27,7 @@ const Project = () => {
             } else return true;
         });
     });
-    if (id && (id == "asianmart" || id == "questionnaire" || id == "quiz")) {
+    if (id && projectList.indexOf(id) > -1) {
         return (
             <div className="font-['Helvetica'] text-base text-slate-900 dark:text-slate-50 divide-y-2 dark:divide-slate-800">
                 {position > 350 ? (

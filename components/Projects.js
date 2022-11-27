@@ -8,7 +8,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 
 const classes = {
-    cards: "w-[45%] md:w-60 m-2 md:m-8 lg:hover:scale-105 shadow-lg dark:shadow dark:shadow-slate-600 dark:lg:hover:shadow-slate-600 dark:lg:hover:shadow-lg lg:hover:shadow-2xl transition duration-200 rounded-md h-[22rem]",
+    cards: "w-48 md:w-60 m-2 md:m-8 lg:hover:scale-105 shadow-lg dark:shadow dark:shadow-slate-600 dark:lg:hover:shadow-slate-600 dark:lg:hover:shadow-lg lg:hover:shadow-lg transition duration-200 rounded-md h-[22rem]",
     header: "p-2 border-b-2 dark:border-slate-800 mx-2",
     description: "h-24 md:h-20 m-2 border-b-2 dark:border-slate-800",
     image: "rounded-t-md",
@@ -27,93 +27,132 @@ const Projects = () => {
             <div className="pt-24 md:pt-40 lg:pt-28 text-center mx-5 md:mx-20 lg:mx-40">
                 <div className="text-2xl mb-8 md:mb-16">My Projects</div>
             </div>
-            <div className="text-slate-700 dark:text-slate-50 font-['Helvetica'] text-center flex w-full px-5 flex-wrap justify-center">
-                <div className={classes.cards}>
-                    <div>
-                        <Image src="/questionnaire.png" className={classes.image} width={300} height={140} priority />
-                    </div>
-                    <h1 className={classes.header}>Questionnaire</h1>
-                    <h2 className={classes.description}>
-                        <MdOutlineSubtitles className="m-auto" />A question-and-answer based discussion forum
-                    </h2>
-                    <div className={classes.body}>
-                        <a href="https://github.com/mabhi1/cs-546-Questionnaire-" className={classes.links} target="_blank" rel="noopener noreferrer">
-                            <span className={classes.linkDescription}>Code</span>
-                            <BsGithub />
-                        </a>
-                        <a href="https://questionnaire-node.herokuapp.com/" className={classes.links} target="_blank" rel="noopener noreferrer">
-                            <span className={classes.linkDescription}>Demo</span>
-                            <FiExternalLink />
-                        </a>
-                    </div>
-                    <div className={classes.footer}>
-                        <Link href="/questionnaire">
-                            <a className={classes.button}>
-                                Details
-                                <AiFillCaretRight className="m-1 mr-0 group-hover:translate-x-1 transition duration-300" />
+            <div className="overflow-x-auto md:w-10/12 m-auto">
+                <div className="text-slate-700 dark:text-slate-50 font-['Helvetica'] text-center flex w-full px-5 min-w-fit justify-center">
+                    <div className={classes.cards}>
+                        <div>
+                            <Image src="/questionnaire.png" className={classes.image} width={300} height={140} priority />
+                        </div>
+                        <h1 className={classes.header}>Questionnaire</h1>
+                        <h2 className={classes.description}>
+                            <MdOutlineSubtitles className="m-auto" />A question-and-answer based discussion forum
+                        </h2>
+                        <div className={classes.body}>
+                            <a
+                                href="https://github.com/mabhi1/cs-546-Questionnaire-"
+                                className={classes.links}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <span className={classes.linkDescription}>Code</span>
+                                <BsGithub />
                             </a>
-                        </Link>
-                    </div>
-                </div>
-                <div className={classes.cards}>
-                    <div>
-                        <Image src="/asianmart.png" className={classes.image} width={300} height={140} priority />
-                    </div>
-                    <h1 className={classes.header}>Asian Mart</h1>
-                    <h2 className={classes.description}>
-                        <MdOutlineSubtitles className="m-auto" />
-                        An e-commerce platform for asian groceries
-                    </h2>
-                    <div className={classes.body}>
-                        <a
-                            href="https://github.com/mabhi1/Grocery-E-commerce-Web-Application"
-                            className={classes.links}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <span className={classes.linkDescription}>Code</span>
-                            <BsGithub />
-                        </a>
-                        <a href="https://animated-meerkat-2d5d3b.netlify.app/" className={classes.links} target="_blank" rel="noopener noreferrer">
-                            <span className={classes.linkDescription}>Demo</span>
-                            <FiExternalLink />
-                        </a>
-                    </div>
-                    <div className={classes.footer}>
-                        <Link href="/asianmart">
-                            <a className={classes.button}>
-                                Details
-                                <AiFillCaretRight className="m-1 mr-0 group-hover:translate-x-1 transition duration-300" />
+                            <a href="https://questionnaire-node.herokuapp.com/" className={classes.links} target="_blank" rel="noopener noreferrer">
+                                <span className={classes.linkDescription}>Demo</span>
+                                <FiExternalLink />
                             </a>
-                        </Link>
+                        </div>
+                        <div className={classes.footer}>
+                            <Link href="/questionnaire">
+                                <a className={classes.button}>
+                                    Details
+                                    <AiFillCaretRight className="m-1 mr-0 group-hover:translate-x-1 transition duration-300" />
+                                </a>
+                            </Link>
+                        </div>
                     </div>
-                </div>
-                <div className={classes.cards}>
-                    <div>
-                        <Image src="/quiz.png" className={classes.image} width={300} height={140} priority />
-                    </div>
-                    <h1 className={classes.header}>Quiz</h1>
-                    <h2 className={classes.description}>
-                        <MdOutlineSubtitles className="m-auto" />
-                        An online quiz portal
-                    </h2>
-                    <div className={classes.body}>
-                        <a href="https://github.com/mabhi1/quiz" className={classes.links} target="_blank" rel="noopener noreferrer">
-                            <span className={classes.linkDescription}>Code</span>
-                            <BsGithub />
-                        </a>
-                        <a href="https://quizapp-node.herokuapp.com/" className={classes.links} target="_blank" rel="noopener noreferrer">
-                            <span className={classes.linkDescription}>Demo</span>
-                            <FiExternalLink />
-                        </a>
-                    </div>
-                    <div className={classes.footer}>
-                        <Link href="/quiz">
-                            <a className={classes.button}>
-                                Details
-                                <AiFillCaretRight className="m-1 mr-0 group-hover:translate-x-1 transition duration-300" />
+                    <div className={classes.cards}>
+                        <div>
+                            <Image src="/asianmart.png" className={classes.image} width={300} height={140} priority />
+                        </div>
+                        <h1 className={classes.header}>Asian Mart</h1>
+                        <h2 className={classes.description}>
+                            <MdOutlineSubtitles className="m-auto" />
+                            An e-commerce platform for asian groceries
+                        </h2>
+                        <div className={classes.body}>
+                            <a
+                                href="https://github.com/mabhi1/Grocery-E-commerce-Web-Application"
+                                className={classes.links}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <span className={classes.linkDescription}>Code</span>
+                                <BsGithub />
                             </a>
-                        </Link>
+                            <a
+                                href="https://animated-meerkat-2d5d3b.netlify.app/"
+                                className={classes.links}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <span className={classes.linkDescription}>Demo</span>
+                                <FiExternalLink />
+                            </a>
+                        </div>
+                        <div className={classes.footer}>
+                            <Link href="/asianmart">
+                                <a className={classes.button}>
+                                    Details
+                                    <AiFillCaretRight className="m-1 mr-0 group-hover:translate-x-1 transition duration-300" />
+                                </a>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className={classes.cards}>
+                        <div>
+                            <Image src="/quiz.png" className={classes.image} width={300} height={140} priority />
+                        </div>
+                        <h1 className={classes.header}>Quiz</h1>
+                        <h2 className={classes.description}>
+                            <MdOutlineSubtitles className="m-auto" />
+                            An online quiz portal
+                        </h2>
+                        <div className={classes.body}>
+                            <a href="https://github.com/mabhi1/quiz" className={classes.links} target="_blank" rel="noopener noreferrer">
+                                <span className={classes.linkDescription}>Code</span>
+                                <BsGithub />
+                            </a>
+                            <a href="https://quizapp-node.herokuapp.com/" className={classes.links} target="_blank" rel="noopener noreferrer">
+                                <span className={classes.linkDescription}>Demo</span>
+                                <FiExternalLink />
+                            </a>
+                        </div>
+                        <div className={classes.footer}>
+                            <Link href="/quiz">
+                                <a className={classes.button}>
+                                    Details
+                                    <AiFillCaretRight className="m-1 mr-0 group-hover:translate-x-1 transition duration-300" />
+                                </a>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className={classes.cards}>
+                        <div>
+                            <Image src="/mysou.png" className={classes.image} width={300} height={140} priority />
+                        </div>
+                        <h1 className={classes.header}>My SOU</h1>
+                        <h2 className={classes.description}>
+                            <MdOutlineSubtitles className="m-auto" />A college portal for students
+                        </h2>
+                        <div className={classes.body}>
+                            <a href="https://github.com/mabhi1/mysou-heroku" className={classes.links} target="_blank" rel="noopener noreferrer">
+                                <span className={classes.linkDescription}>Code</span>
+                                <BsGithub />
+                            </a>
+                            <a href="https://mysou-django.herokuapp.com/app" className={classes.links} target="_blank" rel="noopener noreferrer">
+                                <span className={classes.linkDescription}>Demo</span>
+                                <FiExternalLink />
+                            </a>
+                        </div>
+                        <div className={classes.footer}>
+                            <Link href="/mysou">
+                                <a className={classes.button}>
+                                    Details
+                                    <AiFillCaretRight className="m-1 mr-0 group-hover:translate-x-1 transition duration-300" />
+                                </a>
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </div>

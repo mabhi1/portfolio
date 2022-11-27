@@ -69,7 +69,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex w-full md:w-auto pl-2 md:pl-0">
+            <div className="flex w-full md:w-auto pl-2 md:pl-0 justify-center">
                 <div className="md:w-[20rem] md:h-[17rem] lg:w-[30rem] lg:h-[25rem] rounded-full ">
                     <Image src="/front.webp" width={570} height={450} priority />
                 </div>
