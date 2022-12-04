@@ -2,7 +2,7 @@ import React from "react";
 import { BsBraces, BsCodeSquare, BsCloud, BsHddNetwork } from "react-icons/bs";
 
 const classes = {
-    container: "block w-[94%] mb-10",
+    container: "block w-[100%] mb-10",
     header: "relative bg-slate-100 shadow shadow-[0px,5px,45px,rgba(255,255,255,0.1)] dark:shadow dark:shadow-slate-100/50 flex justify-between w-full dark:bg-slate-700 rounded p-5 z-10",
     body: "flex flex-wrap pt-5 justify-start rounded text-left border-0",
     image: "w-10 hidden lg:block scale-100 hover:scale-110 transition duration-300",
@@ -24,6 +24,14 @@ const Skills = () => {
                             </div>
                             <div className={classes.body} id="programming">
                                 <div className={classes.item}>
+                                    <img src="/java.png" alt="Python" className={classes.image} />
+                                    <div className="m-2">Java</div>
+                                </div>
+                                <div className={classes.item}>
+                                    <img src="/php.png" alt="Python" className={classes.image} />
+                                    <div className="m-2">PHP</div>
+                                </div>
+                                <div className={classes.item}>
                                     <img src="/python.png" alt="Python" className={classes.image} />
                                     <div className="m-2">Python</div>
                                 </div>
@@ -34,10 +42,6 @@ const Skills = () => {
                                 <div className={classes.item}>
                                     <img src="/typescript.png" alt="Typescript" className={classes.image} />
                                     <div className="m-2">Typescript</div>
-                                </div>
-                                <div className={classes.item}>
-                                    <img src="/sql.png" alt="SQL" className={classes.image} />
-                                    <div className="m-2">SQL</div>
                                 </div>
                             </div>
                         </div>
@@ -97,6 +101,10 @@ const Skills = () => {
                                     <img src="/redis.png" alt="Redis" className={classes.image} />
                                     <div className="m-2">Redis</div>
                                 </div>
+                                <div className={classes.item}>
+                                    <img src="/postgresql.png" alt="Redis" className={classes.image} />
+                                    <div className="m-2">PostgreSQL</div>
+                                </div>
                             </div>
                         </div>
                         <div className={classes.container}>
@@ -142,6 +150,10 @@ const Skills = () => {
                                 <div className={classes.item}>
                                     <img src="/vue.png" alt="Vue" className={classes.image} />
                                     <div className="m-2">Vue.js</div>
+                                </div>
+                                <div className={classes.item}>
+                                    <img src="/reactnative.png" alt="Vue" className={classes.image} />
+                                    <div className="m-2">React Native</div>
                                 </div>
                             </div>
                         </div>

@@ -109,10 +109,9 @@ const Qualifications = () => {
                                 <div className="w-fit">
                                     <ul>
                                         <li>
-                                            Hold weekly session hours to help students with doubts regarding assignments or any topic related to
-                                            course
+                                            Taking classes and doubt sessions with students for graduate-level course Data Structures and Algorithms
                                         </li>
-                                        <li>Grading homework and exam papers of graduate level course Algorithms CS-590</li>
+                                        <li>Grading homework, and exam papers, and structuring the coursework</li>
                                         <li>Also responsible for creating questions for assignments, and exams</li>
                                     </ul>
                                 </div>
@@ -126,7 +125,7 @@ const Qualifications = () => {
                             <div className="flex items-center mb-2">
                                 <Image src="/compitek.png" height={50} width={50} className="rounded-full bg-slate-50" />
                                 <div className="m-2">
-                                    <div className="text-base text-slate-900 dark:text-slate-50">Web Developer</div>
+                                    <div className="text-base text-slate-900 dark:text-slate-50">Software Developer</div>
                                     <h1 className="">Compitek IT services, India</h1>
                                 </div>
                             </div>
@@ -134,37 +133,21 @@ const Qualifications = () => {
                                 <FaBookReader className="m-1 mr-3" />
                                 <div className="w-fit">
                                     <ul>
-                                        <li>Developed a full-stack CRM leveraging MERN stack in collaboration with CEO</li>
+                                        <li>Collaborated in developing web services using the MERN stack as a primary technology</li>
                                         <li>Translated designs and wireframes into high-quality code increasing efficiency by 10%</li>
-                                        <li>Optimized components for maximum performance across 99% of devices and browsers</li>
+                                        <li>Developed single-page applications by employing React Lifecycle methods and React hooks</li>
+                                        <li>Improved the response time of APIs by 200% by implementing in-memory cache using Redis</li>
+                                        <li>Increased performance of applications by 70% by reducing number of API calls using memoization</li>
+                                        <li>Performed Authentication and Authorization by using express session for Node.js applications</li>
+                                        <li>Employed Jest for writing unit tests and Postman for testing Restful APIs endpoints</li>
+                                        <li>Used Redux to manage state and Redux thunk as middleware to handle asynchronous applications</li>
+                                        <li>Ensured type safety by using Typescript</li>
+                                        <li>Controlled Race conditions in redux-based applications</li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="flex">
-                                <FaRegCalendarAlt className="m-1 mr-3" /> 2019 - 2020
-                            </div>
-                        </div>
-                        <span className="w-[100%] min-h-[1px] my-6 bg-slate-300 dark:bg-slate-800 block"></span>
-                        <div>
-                            <div className="flex items-center mb-2">
-                                <Image src="/pwc.png" height={50} width={50} className="rounded-full bg-slate-50" />
-                                <div className="m-2">
-                                    <div className="text-base text-slate-900 dark:text-slate-50">Data Analyst</div>
-                                    <h1 className="">PwC, India</h1>
-                                </div>
-                            </div>
-                            <div className="flex mb-2">
-                                <FaBookReader className="m-1 mr-3" />
-                                <div className="w-fit">
-                                    <ul>
-                                        <li>Analyzed server load in a team of 2 using Informatica PowerCenter tool</li>
-                                        <li>Performed database testing and debugging using SQL to prevent inconsistencies</li>
-                                        <li>Enhanced efficiency by 10% by building scripts automating manually handled jobs</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="flex">
-                                <FaRegCalendarAlt className="m-1 mr-3" /> 2018 - 2019
+                                <FaRegCalendarAlt className="m-1 mr-3" /> 2017 - 2021
                             </div>
                         </div>
                     </div>
