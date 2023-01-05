@@ -13,9 +13,17 @@ const Header = ({ data }) => {
   return (
     <div className="w-full lg:flex h-auto pt-16 md:pt-20">
       <div className="flex justify-center lg:w-[55%] m-3 lg:ml-10 rounded transition duration-200 h-36 md:h-auto">
-        {data.image.map((item) => {
+        {data.image.map((item, idx) => {
           return (
-            <Image src={item} alt="Asian Mart" width="1090" height="509" className="rounded lg:hover:scale-[101%] transition duration-200" priority />
+            <Image
+              key={idx}
+              src={item}
+              alt="Asian Mart"
+              width="1090"
+              height="509"
+              className="rounded lg:hover:scale-[101%] transition duration-200"
+              priority
+            />
           );
         })}
       </div>
