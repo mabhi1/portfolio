@@ -105,7 +105,7 @@ const Projects = () => {
                 <span className={classes.linkDescription}>Code</span>
                 <BsGithub />
               </a>
-              <a href="https://quiz-frontend-emay.onrender.com/" className={classes.links} target="_blank" rel="noopener noreferrer">
+              <a href="https://quiz-app18.netlify.app/" className={classes.links} target="_blank" rel="noopener noreferrer">
                 <span className={classes.linkDescription}>Demo</span>
                 <FiExternalLink />
               </a>
