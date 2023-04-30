@@ -94,7 +94,7 @@
       "techstack": {
         "frontend": ["Next.js", "Tailwindcss"],
         "backend": ["Next.js", "Firebase Storage", "Firebase Auth"],
-        "database": ["MongoDB"]
+        "database": ["MongoDB", "Prisma"]
       },
       "links": {
         "code": "https://github.com/mabhi1/safehouse",
