@@ -7,7 +7,7 @@ import Body from "../components/project/Body";
 const projects = require("../components/project/projects.json");
 
 const Project = () => {
-  const projectList = ["asianmart", "questionnaire", "quiz", "mysou", "todo"];
+  const projectList = ["asianmart", "questionnaire", "quiz", "safehouse"];
   const [position, setPosition] = useState(null);
   const handleScroll = () => {
     setPosition(window?.pageYOffset);

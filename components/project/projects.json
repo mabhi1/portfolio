@@ -86,53 +86,31 @@
       ]
     }
   },
-  "mysou": {
+  "safehouse": {
     "header": {
-      "image": ["/mysou.png"],
-      "heading": "Fullstack Django application",
-      "description": "MySOU is a mobile responsive full stack web application developed for admitted college students where they would be able to create, view and edit their profile, access resources and job opportunities, register for events, request documents, and enroll in student clubs.",
+      "image": ["/safehouse.png"],
+      "heading": "Fullstack Next.js application",
+      "description": "An application to store passwords, documents, cards, notes, and events. All the confidential details like passwords and credit and debit card details are encrypted and only visible to the user.",
       "techstack": {
-        "frontend": ["DHTML", "CSS", "JavaScript"],
-        "backend": ["Django", "Stripe payment"],
-        "database": ["PostgreSQL"]
+        "frontend": ["Next.js", "Tailwindcss"],
+        "backend": ["Next.js", "Firebase Storage", "Firebase Auth"],
+        "database": ["MongoDB"]
       },
       "links": {
-        "code": "https://github.com/mabhi1/mysou-heroku",
-        "demo": "https://mysou-django.herokuapp.com/app"
+        "code": "https://github.com/mabhi1/safehouse",
+        "demo": "https://mysafehouse.vercel.app"
       }
     },
     "body": {
       "keypoints": [
-        "A student can login and have access to all the resources of the college like Grades, Events, Clubs etc.",
-        "Student can view all the notices, course material and any homeworks on the portal",
-        "Student can also request for completion certificate, view academic calender and pay fee using the portal",
-        "Admin has the responsibility to add any new resources to the portal or edit any existing one",
-        "Admin also adds a student after his/her admission. He can also delete or update amy existing one"
-      ]
-    }
-  },
-  "todo": {
-    "header": {
-      "image": ["/todo1.jpg", "/todo2.jpg", "/todo3.jpg", "/todo4.jpg", "/todo5.jpg"],
-      "heading": "Fullstack React-Native Django application",
-      "description": "This is a todo application built for both ios and android mobile devices to store daily tasks and manage them.",
-      "techstack": {
-        "frontend": ["React Native", "Expo", "Tailwindcss"],
-        "backend": ["Django"],
-        "database": ["PostgreSQL"]
-      },
-      "links": {
-        "code": "https://github.com/mabhi1/todo",
-        "demo": "https://github.com/mabhi1/todo"
-      }
-    },
-    "body": {
-      "keypoints": [
-        "A user can login and signup through the application and manage all the tasks",
-        "User can add a new taks. User can also edit or deleted an existing task",
-        "User can edit his profile in the profile section",
-        "A task can marked or unmarked as completed on the Home page",
-        "A green task is a completed task whereas the red one is still pending"
+        "User can login with their credentials and store their important documents, passwords, card details, make notes, and add events",
+        "All the personal information like card details and password are well encrypted and can only be viewed by the respective user",
+        "User can add, edit or delete any of their stored details",
+        "User can search within the all the pages of the application using the search bar",
+        "This application is fully responsive. So, user can be access this application from anywhere in any device",
+        "Use Below Credentials to test the application",
+        "Username - test@test.com",
+        "Password - test123"
       ]
     }
   }

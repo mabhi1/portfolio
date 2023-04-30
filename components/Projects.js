@@ -121,53 +121,25 @@ const Projects = () => {
           </div>
           <div className={classes.cards}>
             <div>
-              <Image src="/mysou.png" className={classes.image} width={300} height={140} priority />
+              <Image src="/safehouse.png" className={classes.image} width={300} height={140} />
             </div>
-            <h1 className={classes.header}>My SOU</h1>
+            <h1 className={classes.header}>Safe House</h1>
             <h2 className={classes.description}>
-              <MdOutlineSubtitles className="m-auto" />A college portal for students
+              <MdOutlineSubtitles className="m-auto" />
+              Application for storing passwords, docs, and more
             </h2>
             <div className={classes.body}>
-              <a href="https://github.com/mabhi1/mysou-heroku" className={classes.links} target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/mabhi1/safehouse" className={classes.links} target="_blank" rel="noopener noreferrer">
                 <span className={classes.linkDescription}>Code</span>
                 <BsGithub />
               </a>
-              <a href="https://mysou-django.herokuapp.com/app" className={classes.links} target="_blank" rel="noopener noreferrer">
+              <a href="https://mysafehouse.vercel.app/" className={classes.links} target="_blank" rel="noopener noreferrer">
                 <span className={classes.linkDescription}>Demo</span>
                 <FiExternalLink />
               </a>
             </div>
             <div className={classes.footer}>
-              <Link href="/mysou">
-                <a className={classes.button}>
-                  Details
-                  <AiFillCaretRight className="m-1 mr-0 group-hover:translate-x-1 transition duration-300" />
-                </a>
-              </Link>
-            </div>
-          </div>
-          <div className={classes.cards}>
-            <div className="flex w-[100%] justify-evenly">
-              <Image src="/todo1.jpg" className={classes.image} width={70} height={120} />
-              <Image src="/todo5.jpg" className={classes.image} width={70} height={120} />
-              <Image src="/todo2.jpg" className={classes.image} width={70} height={120} />
-            </div>
-            <h1 className={classes.header}>Todo app</h1>
-            <h2 className={classes.description}>
-              <MdOutlineSubtitles className="m-auto" />A todo application for mobile devices
-            </h2>
-            <div className={classes.body}>
-              <a href="https://github.com/mabhi1/todo" className={classes.links} target="_blank" rel="noopener noreferrer">
-                <span className={classes.linkDescription}>Code</span>
-                <BsGithub />
-              </a>
-              <a className={classes.links}>
-                <span className={classes.linkDescription}>Demo</span>
-                <FiExternalLink />
-              </a>
-            </div>
-            <div className={classes.footer}>
-              <Link href="/todo">
+              <Link href="/safehouse">
                 <a className={classes.button}>
                   Details
                   <AiFillCaretRight className="m-1 mr-0 group-hover:translate-x-1 transition duration-300" />
