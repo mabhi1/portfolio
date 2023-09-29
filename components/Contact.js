@@ -11,10 +11,12 @@ const classes = {
   icons: "h-5 text-xl m-2 mr-5 dark:text-slate-50",
   heading: "dark:text-slate-50",
   description: "text-slate-500",
-  input: " bg-cyan-100 m-1 p-4 rounded resize-none text-slate-600 hover:shadow transition duration-200 dark:hover:shadow dark:hover:shadow-slate-50",
+  input:
+    " bg-cyan-100 m-1 p-4 rounded resize-none text-slate-600 hover:shadow transition duration-200 dark:hover:shadow dark:hover:shadow-slate-50",
   submit:
     "bg-cyan-800 dark:hover:shadow-[0px_0px_8px_3px_rgb(21,94,117,0.4)] p-2 px-3 cursor-pointer rounded text-slate-50 m-1 flex hover:shadow-cyan-500/50 hover:shadow-md transition-all duration-200",
-  alert: "hidden flex rounded shadow-lg p-3 px-5 text-slate-50 fixed top-[85px] right-2 animate-[alert_500ms_ease-in-out]",
+  alert:
+    "hidden flex rounded shadow-lg p-3 px-5 text-slate-50 fixed top-[85px] right-2 animate-[alert_500ms_ease-in-out]",
 };
 const Contact = () => {
   const [error, setError] = useState(false);
@@ -89,7 +91,7 @@ const Contact = () => {
             <GoLocation className={classes.icons} />
             <div>
               <h1 className={classes.heading}>Location</h1>
-              <h2 className={classes.description}>Jersey City, New Jersey - 07306</h2>
+              <h2 className={classes.description}>Columbus, Ohio</h2>
             </div>
           </div>
         </div>

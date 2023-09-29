@@ -17,7 +17,7 @@ const About = () => {
           <a href="https://github.com/mabhi1" target="_blank" rel="noopener noreferrer">
             <BsGithub className="hover:text-teal-700 cursor-pointer" />
           </a>
-          <a href="https://www.linkedin.com/in/abhi-m-a86925274/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/mishraabhishek226/" target="_blank" rel="noopener noreferrer">
             <BsLinkedin className="hover:text-teal-700 cursor-pointer" />
           </a>
         </div>
@@ -55,7 +55,12 @@ const About = () => {
               <a href="https://github.com/mabhi1" target="_blank" rel="noopener noreferrer" className="m-5">
                 <BsGithub className="hover:text-teal-700 cursor-pointer" />
               </a>
-              <a href="https://www.linkedin.com/in/mishraabhishek226/" target="_blank" rel="noopener noreferrer" className="m-5">
+              <a
+                href="https://www.linkedin.com/in/mishraabhishek226/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="m-5"
+              >
                 <BsLinkedin className="hover:text-teal-700 cursor-pointer" />
               </a>
             </div>
