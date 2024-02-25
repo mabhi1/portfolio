@@ -40,7 +40,7 @@ const Navbar = () => {
             }
         >
             <div className="relative z-30 text-xl p-5 flex w-full md:w-auto justify-between ">
-                Portfolio
+                <Link href="/">Portfolio</Link>
                 <div className="flex md:hidden">
                     <div>
                         {mode && mode === "dark" ? (
